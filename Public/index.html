@@ -5,21 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Bootstrap CDN-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
-    <!--StyleSheet-->
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script><!--StyleSheet-->
     <link rel="stylesheet" href="css/style-sheet.css">
 
     <title>Julio Garcia Insurance</title>
 </head>
-<body>
-    <!--Req quote button and phone info-->
-    
-    <div class="alert alert-light" role="alert" >
-        <a class="navbar-brand" href="#" ><img src="images/Logo/JulioNameLogo.png" alt='julio garcia insurance logo' id='indexlogo'></a>
 
-    <button type="button" class="btn btn-primary btn-lg " id="requestQuote" href="#" >Request a quote!</button> <h6 class="text-xl-right" id="phoneNumber">Phone: 832-779-4300</h6> 
-    </div>
+<body>
+    <!--Req quote button and phone info-->    
+<div class="alert alert-light" role="alert" >
+
+        <!--Logo row to the right of the site-->
+        <div class="row">
+            <div class="col-sm"><a class="navbar-brand" href="#" >
+                <img src="images/Logo/JulioNameLogo.png" alt='julio garcia insurance logo' width="100%" id='indexlogo'></a></div>
+        
+        <!--Req Qt Button to the left and with go beneath logo when in responsive mode-->
+            <div class="col-sm-10"><button type="button" class="btn btn-primary " id="requestQuote" href="#">Request a quote!</button></div> 
+        </div>
+</div>
 
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -33,15 +41,9 @@
                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item dropdown">
+                                <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown link
+                    Personal Insurance
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <li><a class="dropdown-item" href="#">Action</a></li>
@@ -49,26 +51,51 @@
                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
                 </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Companies We Represent</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Commercial Insurance</a>
+                </li>
+            <li class="nav-item">
+                <a class="nav-link phoneNumber" id="phoneNumber">Phone: 832-779-4300</a>
+                </li>
             </ul>
+
+            
+                <p class="" ></p> 
+            
+            
             </div>
         </div>
     </nav>
 
 
-<!--Jumbotron-->
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+<!--Jumbotron image-->
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="images/SitePics/happy-young-asian-family.jpg" class="d-block w-100" alt="family sitting on the floor with moving boxes">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+        </div>
     </div>
 </div>
 
 
-
 <!--Footer-->
 <nav class="navbar fixed-bottom navbar-light bg-light">
-    <a class="navbar-brand" href="#">Sticky top</a>
+    <a class="navbar-brand" href="#">Footer</a>
 </nav>
+
+
+<!--my javascript code-->
+<script src="js/script.js"></script>
 
 <!--Bootstrap CDN jQuery-->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
