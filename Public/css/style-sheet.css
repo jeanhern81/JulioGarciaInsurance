@@ -11,9 +11,10 @@ body {
 }
 
 .phoneNumber {
-    text-align:  right;
+    text-align: right ;
     color:black;
-    margin-top: ;
+    margin-top: .3%;
+    
     
 }
 
@@ -35,20 +36,12 @@ body {
 
 /*Footer Styling*/
 .footer {
-    text-align: center;
+    
     width: 100%;
 }
 .f1 {    
     padding: 0;
     margin: 0;
-
-}
-
-.f2 {
-
-}
-
-.f3 {
 
 }
 
@@ -67,18 +60,9 @@ body {
 
 }
 
-.f1 {
-
-    text-align: left;
-
-}
 
 #f4 {
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: inline-block;
-    text-align: center !important;
-    font-size: 14px;
+font-size: 14px;
     
 }
 
