@@ -1,14 +1,18 @@
+body {
+    font-family: 'Lora', serif;
+}
+
 
 #requestQuote {
     float: right;
+    margin-top: 5%;
     
 }
 
-#carouselText {
-    color: black;
-}
 .phoneNumber {
     text-align:  right;
+    color:black;
+    margin-top: ;
     
 }
 
@@ -18,8 +22,6 @@
     color: white;
 }
 
-
-
 .centered {
     position: absolute;
     top: 80%;
@@ -28,3 +30,48 @@
     font-size: 200%;
 }
 
+
+
+
+.footer {
+    text-align: center;
+    width: 100%;
+}
+.f1 {
+
+    
+    padding: 0;
+    margin: 0;
+
+}
+
+.f2 {
+
+
+}
+
+.f3 {
+
+
+}
+
+.f1,
+.f2,
+.f3 {
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    padding: 0 8%;
+    min-width: 300px;
+    width: 33%;
+
+}
+
+.f1 {
+
+    text-align: left;
+
+}
