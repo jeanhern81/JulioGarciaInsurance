@@ -18,6 +18,8 @@
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
     <!--StyleSheet-->
     <link rel="stylesheet" href="Public/css/style-sheet.css">
     <title>Julio Garcia Insurance</title>
@@ -33,7 +35,7 @@
                 <img src="Public/images/Logo/JulioNameLogo.png" alt='julio garcia insurance logo' width="100%" id='indexlogo'></a></div>
         
         <!--Req Qt Button to the left and with go beneath logo when in responsive mode-->
-            <div class="col-sm-"><button type="button" class="btn btn-primary " id="requestQuote" href="#">Request a quote!</button></div> 
+            <div class="col-sm-"><button type="button" class="btn btn-info " id="requestQuote" href="#">Request a quote!</button></div> 
             <a class="nav-link phoneNumber" id="phoneNumber"><i class="fas fa-phone-alt"> (832) 779-4300</i></a>
         </div>
 </div>
@@ -75,8 +77,7 @@
                 <a class="dropdown-item" href="https://www.mercuryinsurance.com/" target='_blank'>Mercury</a>
                 <a class="dropdown-item" href="https://www.geico.com/" target='_blank'>Geico</a>
                 <a class="dropdown-item" href="https://www.progressive.com/" target='_blank'>Progressive</a>
-                </d
-            </li>
+                </d>
             <li class="nav-item">
                 <a class="nav-link" href="#">About Us</a>
             </li>
@@ -116,8 +117,27 @@
             <p>Privacy Policy</p>
         </div>
         <br>
-        <div class="f3">Test</div>
-        <br>
+        <div class="f3">
+        <p>Translate this page:</p>
+
+            
+
+<!-- GTranslate: https://gtranslate.io/ -->
+
+    <div id="google_translate_element"></div>
+
+    </div>
+    
+
+
+
+
+
+
+
+            
+        
+    <hr>
     <div class="text-center">
         <p class=""></p><i class="far fa-copyright " id="f4"> Julio Garcia Insurance  </i> </p>
         <p class="" id="f4"> All content on this website is owned by Julio Garcia and our licensors. Do not use without our consent.</p>
@@ -129,7 +149,9 @@
 
 
 <!--my javascript code-->
-<link rel="javascript" href="js/script.js" />
+<link rel="javascript" href="Public/js/script.js" />
+
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -139,7 +161,10 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
-
+<script type="text/javascript">
+        function googleTranslateElementInit() 
+        {new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay: false, includedLanguages: ''}, 'google_translate_element');}
+    </script>
 
 </body>
 </html>
