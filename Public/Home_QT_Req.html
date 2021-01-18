@@ -99,66 +99,322 @@
 
 
 
-<!--Jumbotron image-->
-<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-        <img src="images/SitePics/car_interior02.jpg" class="d-block w-100" alt="family sitting on the floor with moving boxes">
-        <div class="carousel-caption d-none d-md-block">
-            <h2>Affordiable Auto Insurance</h2>
-            <p></p>
+
+<br>
+<!--Body-->
+
+    <!--Auto Quote Request-->
+<div class="container-md">
+
+<h2 class='autoReq'>Home Request</h2>
+<br>
+    
+<form>
+    <p>Primary Insured</p>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+        <label for="name">Name</label>
+        <input type="name" class="form-control" id="name">
+    </div>
+    <div class="form-group col-md-6">
+        <label for="lastName">Last Name</label>
+        <input type="lastName" class="form-control" id="lastName">
+    </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email">
+    </div>
+    <div class="form-group col-md-6">
+        <label for="phoneNumber">Phone Number</label>
+        <input type="phoneNumber" class="form-control" id="phoneNumber">
+    </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-3">
+        <label for="dob">Date of Birth</label>
+        <input type="dob" class="form-control" id="dob">
+    </div>
+        <div class="form-group col-md-3">
+        <label for="socialSecurity">Social Security Number</label>
+        <input type="text" class="form-control" id="socialSecurity">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="dlNumber">Drivers License Number</label>
+        <input type="dlNumber" class="form-control" id="dlNumber">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="stateIssued">State Issued</label>
+        <input type="stateIssued" class="form-control" id="stateIssued">
+    </div>
+
+    </div>
+    <div class="form-group">
+        <label for="inputAddress">Property Location Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+        <label for="inputState">State</label>
+        <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>TX</option>
+        </select>
+    </div>
+    <div class="form-group col-md-2">
+        <label for="inputZip">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+    </div>
+    </div>                
+
+    <br>
+    <hr>
+    <p>Current Coverage</p>
+    <div class="form-group">
+        <div class="form-check">
+                <label for="insured">Are you insured?</label>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+    <label class="form-check-label" for="inlineCheckbox2">Yes</label>
+    </div>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+    <label class="form-check-label" for="inlineCheckbox2">No</label>
+    </div>
+
+    </div>
+    </div>
+
+    
+    <div class="form-row">
+    <div class="form-group col-md-6">
+    <label for="carrierName">Carrier Name</label>
+    <input type="carrierName" class="form-control" id="carrierName">
+</div>
+<div class="form-group col-md-3">
+    <label for="policyNumber">Policy Number</label>
+    <input type="policyNumber" class="form-control" id="policyNumber">
+</div>
+<div class="form-group col-md-3">
+    <label for="expiration">Expiration Date</label>
+    <input type="expiration" class="form-control" id="expiration">
+</div>
+</div>
+<br>
+<hr>
+<br>
+<p>Insurance Information</p>
+<div class="form-row">
+    <div class="form-group col-md-6">
+    <label for="dedDesired">Deductible Desired</label>
+    <input type="text" class="form-control" id="dedDesired">
+</div>
+<div class="form-group col-md-6">
+    <label for="liabDesired">Amount of Liablity Desired</label>
+    <input type="text" class="form-control" id="liabDesired">
+</div>
+
+<br><br>
+<div class="form-group">
+    <div class="form-check">
+            <label for="insured">Is this home owner occupied or rental?</label>
+<div class="form-check form-check-inline">
+    
+<p>
+<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+<label class="form-check-label" for="inlineCheckbox2">Owner Occupied</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+<label class="form-check-label" for="inlineCheckbox2">Rental</label>
+</div>
+</p>
+</div>
+</div>
+
+</div>
+<div class="form-row">
+    <div class="form-group col-md-4">
+    <label for="replacementCost">Estimated Replacement Cost</label>
+    <input type="text" class="form-control" id="replacementCost">
+</div>
+<div class="form-group col-md-2">
+    <label for="sqFootage">Square Footage</label>
+    <input type="text" class="form-control" id="sqFootage">
+</div>
+<div class="form-group col-md-2">
+    <label for="yrConstruction">Years Constructed</label>
+    <input type="text" class="form-control" id="yrConstruction">
+</div>
+<div class="form-group col-md-2">
+    <label for="roof">Age of Roof</label>
+    <input type="text" class="form-control" id="roof">
+</div>
+<div class="form-group col-md-2">
+    <label for="collisionDed">Age of Water Heater</label>
+    <input type="text" class="form-control" id="collisionDed">
+</div>
+</div>
+<div class="form-row">
+    <div class="form-group col-md-12">
+    <label for="uupdates">Is your home older than 20 years? If so, what updates have been done?</label>
+    <input type="text" class="form-control" id="updates">
+</div>
+
+</div>
+<br>
+<div class="row">
+    <div class="col-sm-4">
+    <p class="floors">How many floors?</p>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="1Story" check="checked"> 1 Story</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="1.5Story" check="checked"> 1.5 Story</label>
+<br>
+    <label class="radio-inline">
+    <input class="quoteradio" type="radio" value="2Story" check="checked"> 2 Story</label>
+<br>
+    <label class="radio-inline">
+        <input class="quoteradio" type="radio" value="split" check="checked"> Split Level</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="other" check="checked"> Other</label>
+    <input type="other" class="form-control" id="other" aria-describedby="other">
+</div>
+
+
+<br>
+<div class="col-sm-4">
+    <p class="floors">Construction Type</p>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="1Story" check="checked"> Wood</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="1.5Story" check="checked"> Stucco</label>
+<br>
+    <label class="radio-inline">
+    <input class="quoteradio" type="radio" value="2Story" check="checked"> Masonry</label>
+<br>
+    <label class="radio-inline">
+        <input class="quoteradio" type="radio" value="split" check="checked"> Brick Veneer</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="other" check="checked"> Other</label>
+    <input type="other" class="form-control" id="other" aria-describedby="other">
+</div>
+
+
+
+<div class="col-sm-4">
+    <p class="floors">Other Features (check all that apply)</p>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="deadbolts" check="checked"> Deadbolts</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="smokeDetector" check="checked"> Smoke Detectors</label>
+<br>
+    <label class="radio-inline">
+    <input class="quoteradio" type="radio" value="fireExtingquisher" check="checked"> Fire Extinguisher</label>
+<br>
+    <label class="radio-inline">
+        <input class="quoteradio" type="radio" value="fireAlarm" check="checked"> Central Station Fire Alarm</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="burglarAlarm" check="checked"> Central Station Burglar Alarm</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="pool" check="checked"> Swimming Pool</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="trampoline" check="checked"> Trampoline</label>
+<br>
+<label class="radio-inline">
+    <input class="quoteradio" type="radio" value="other" check="checked"> Other</label>
+    <input type="other" class="form-control" id="other" aria-describedby="other">
+</div>
+</div>
+<br>
+<hr>
+
+<br>
+<p>Claims?</p>
+<div class="form-row">
+    <div class="form-group col-md-4">
+    <label for="claimDate">Date of Claim</label>
+    <input type="text" class="form-control" id="claimDate">
+</div>
+<div class="form-group col-md-4">
+    <label for="amountPaid">Amount Paid</label>
+    <input type="text" class="form-control" id="amountPaid">
+</div>
+<div class="form-group col-md-4">
+    <label for="claimType">Claim Type</label>
+    <input type="text" class="form-control" id="claimType">
+</div>
+<div class="form-group col-md-12">
+    <label for="claimDes">Description</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+    
+</div>
+</div>
+
+<hr>
+
+<div class="form-row">
+    <div class="form-group col-md-4">
+    <label for="claimDate">Date of Claim</label>
+    <input type="text" class="form-control" id="claimDate">
+</div>
+<div class="form-group col-md-4">
+    <label for="amountPaid">Amount Paid</label>
+    <input type="text" class="form-control" id="amountPaid">
+</div>
+<div class="form-group col-md-4">
+    <label for="claimType">Claim Type</label>
+    <input type="text" class="form-control" id="claimType" rows="3">
+</div>
+<div class="form-group col-md-12">
+    <label for="claimDes">Description</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+    
+</div>
+</div>
+
+<hr>
+
+</form>
+<div class="form-group">
+    <label for="exampleFormControlTextarea1">Additional Information </label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+    </div>
+
+    <br>
+
+    <hr>
+    <br>
+<div class='btAutoForm'>
+        <div class="d-grid gap-2 d-md-block">
+        <button class="btn btn-danger" type="button"><a href="HomeInsurance.html">Back</a></button>
+        <button class="btn btn-info" type="button">Submit</button>
+    </div>
+</div>
+                    <br>
         </div>
         </div>
     </div>
 </div>
-<br>
-<!--Body-->
-<div class="container-fluid">
-    <div class="card border-light mb-3" style="max-width:;">
-        <div class="row no-gutters">
-            <div class="col-md-4 d-flex justify-content-center">
-            <img src="images/SitePics/NewCar.png"  class="card-img w-75" alt="...">
-            </div>
-            <div class="col-md-8">
-            <div class="card-body">
-                <h5 class="card-title">Car Insurance</h5>
-                <p class="card-text">Our clients have been choosing Julio Garcia Insurance to insure their cars and other vehicles because of our competitive prices and personal customer service, but our policies offer so much more. We also provide: </p>
-
-                    <li>Highest levels of customer service for auto Policyholders</li>
-                    <li>Over 30 extra car insurance policy features</li>
-                    <li>Flexibility to customize your car insurance policy</li>
-                    <li>Stability that ranks at the top of the auto insurance industry</li>
-                    <br>
-                <p>
-                    <h5>Auto Insurance Discounts</h5>
-
-                    <li>Safe Driver</li>
-                    <li>Anti-Theft Devices</li>
-                    <li>Multi-Policy</li>
-                    <li>Passive Restraints</li>
-                    <li> and more!</li>
-
-                </p>
-                
-            </div>
-            </div>
-        </div>
-    </div>
-
-    <!--Auto Quote Request-->
-    <div class="container-fluid d-flex justify-content-center">
-
-        <button type="button" class="btn btn-info"><a href="Auto_QT_Req.html">Auto Quote Request</a></button>
-    </div>
-
-
-
-
+</div>
 
 <br>
+
 
 
 <!--Quote Request Form on top right corner-->
@@ -202,9 +458,6 @@
                 <div class="form-row">
                     <label for="exampleInputEmail1">Phone Number</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
-                    
-                    
-
                 </div>
                 <div class="form-group">
                 <label for="inputAddress">Address</label>
@@ -243,6 +496,8 @@
         </div>
     </div>
 </div>
+<br>
+
 <!--Quote Request Form on top right corner-->
 
 

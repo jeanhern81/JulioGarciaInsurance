@@ -23,7 +23,7 @@
     <!--StyleSheet-->
     <link rel="stylesheet" href="css/style-sheet.css">
 
-    <title>JGI - Home</title>
+    <title>JGI - Auto</title>
 </head>
 
 <body>
@@ -65,8 +65,8 @@
                 Personal Insurance
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="/Public/AutoInsurance.html">Auto Insurance</a>
-                <a class="dropdown-item" href="/Public/HomeInsurance.html">Home Insurance</a>
+                <a class="dropdown-item" href="AutoInsurance.html">Auto Insurance</a>
+                <a class="dropdown-item" href="HomeInsurance.html">Home Insurance</a>
                 <a class="dropdown-item" href="#">Life Insurance</a>
                 </di>
             </li>
@@ -99,60 +99,275 @@
 
 
 
-<!--Jumbotron image-->
-<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-        <img src="images/SitePics/home.jpg" class="d-block w-100 " alt="family sitting on the floor with moving boxes">
-        <div class="carousel-caption d-none d-md-block">
-            <h2>Protect your home!</h2>
-            <p></p>
+
+<br>
+<!--Body-->
+
+    <!--Auto Quote Request-->
+<div class="container-md">
+
+<h2 class='autoReq'>Auto Request</h2>
+<br>
+    
+
+
+
+
+<form>
+    <p>Primary Driver</p>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+        <label for="name">Name</label>
+        <input type="name" class="form-control" id="name">
+    </div>
+    <div class="form-group col-md-6">
+        <label for="lastName">Last Name</label>
+        <input type="lastName" class="form-control" id="lastName">
+    </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email">
+    </div>
+    <div class="form-group col-md-6">
+        <label for="phoneNumber">Phone Number</label>
+        <input type="phoneNumber" class="form-control" id="phoneNumber">
+    </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-3">
+        <label for="dob">Date of Birth</label>
+        <input type="dob" class="form-control" id="dob">
+    </div>
+        <div class="form-group col-md-3">
+        <label for="socialSecurity">Social Security Number</label>
+        <input type="text" class="form-control" id="socialSecurity">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="dlNumber">Drivers License Number</label>
+        <input type="dlNumber" class="form-control" id="dlNumber">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="stateIssued">State Issued</label>
+        <input type="stateIssued" class="form-control" id="stateIssued">
+    </div>
+
+    </div>
+    <div class="form-group">
+        <label for="inputAddress">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+        <label for="inputState">State</label>
+        <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>TX</option>
+        </select>
+    </div>
+    <div class="form-group col-md-2">
+        <label for="inputZip">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+    </div>
+    </div>                
+
+    <br>
+    <hr>
+    <br>
+    <p>Additional Drivers</p>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+        <label for="name">Name</label>
+        <input type="name" class="form-control" id="name">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="lastName">Last Name</label>
+        <input type="lastName" class="form-control" id="lastName">
+    </div>
+    <div class="form-group col-md-2">
+        <label for="dob">Date of Birth</label>
+        <input type="text" class="form-control" id="dob">
+    </div>
+    <div class="form-group col-md-2">
+        <label for="dlNumber">Drivers License</label>
+        <input type="text" class="form-control" id="dlNumber">
+    </div>
+    <div class="form-group col-md-2">
+        <label for="stateIssued">State Issued</label>
+        <input type="text" class="form-control" id="stateIssued">
+    </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+        <label for="name">Name</label>
+        <input type="name" class="form-control" id="name">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="lastName">Last Name</label>
+        <input type="lastName" class="form-control" id="lastName">
+    </div>
+    <div class="form-group col-md-2">
+        <label for="dob">Date of Birth</label>
+        <input type="text" class="form-control" id="dob">
+    </div>
+    <div class="form-group col-md-2">
+        <label for="dlNumber">Drivers License</label>
+        <input type="text" class="form-control" id="dlNumber">
+    </div>
+    <div class="form-group col-md-2">
+        <label for="stateIssued">State Issued</label>
+        <input type="text" class="form-control" id="stateIssued">
+    </div>
+    </div>
+
+<br>
+<hr>
+<br>
+    <p>Current Coverage</p>
+    <div class="form-group">
+        <div class="form-check">
+                <label for="insured">Are you insured?</label>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+    <label class="form-check-label" for="inlineCheckbox2">Yes</label>
+    </div>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+    <label class="form-check-label" for="inlineCheckbox2">No</label>
+    </div>
+
+    </div>
+    </div>
+
+    
+    <div class="form-row">
+    <div class="form-group col-md-6">
+    <label for="carrierName">Carrier Name</label>
+    <input type="carrierName" class="form-control" id="carrierName">
+</div>
+<div class="form-group col-md-6">
+    <label for="policyNumber">Policy Number</label>
+    <input type="policyNumber" class="form-control" id="policyNumber">
+</div>
+</div>
+<div class="form-row">
+    <div class="form-group col-md-4">
+    <label for="bodilyIL">Bodily Injury Liability</label>
+    <input type="text" class="form-control" id="bodilyIL">
+</div>
+<div class="form-group col-md-4">
+    <label for="propDamage">Property Damage</label>
+    <input type="text" class="form-control" id="propDamage">
+</div>
+<div class="form-group col-md-4">
+    <label for="medPayment">Medical Payments (PIP)</label>
+    <input type="text" class="form-control" id="medPayment">
+</div>
+</div>
+<div class="form-row">
+    <div class="form-group col-md-4">
+    <label for="uninMotoLiab">Uninsured Motorist Liability</label>
+    <input type="text" class="form-control" id="uninMotoLiab">
+</div>
+<div class="form-group col-md-4">
+    <label for="uninMotoDamange">Uninsured Motorist Damage</label>
+    <input type="text" class="form-control" id="uninMotoDamange">
+</div>
+<div class="form-group col-md-4">
+    <label for="underMotoLiab">Underinsured Motorist Liablity</label>
+    <input type="text" class="form-control" id="underMotoLiab">
+</div>
+</div>
+<div class="form-row">
+    <div class="form-group col-md-4">
+    <label for="underMotoristProp">Underinsured Motorist Property</label>
+    <input type="text" class="form-control" id="underMotoristProp">
+</div>
+<div class="form-group col-md-4">
+    <label for="compDed">Comprehensive Deductible</label>
+    <input type="text" class="form-control" id="compDed">
+</div>
+<div class="form-group col-md-4">
+    <label for="collisionDed">Collision Deductible</label>
+    <input type="text" class="form-control" id="collisionDed">
+</div>
+</div>
+
+<br>
+<hr>
+<br>
+<p>Vehicle Information</p>
+<div class="form-row">
+    <div class="form-group col-md-1">
+    <label for="year">Year</label>
+    <input type="year" class="form-control" id="year">
+</div>
+<div class="form-group col-md-3">
+    <label for="make">Make</label>
+    <input type="make" class="form-control" id="make">
+</div>
+<div class="form-group col-md-3">
+    <label for="model">Model</label>
+    <input type="model" class="form-control" id="model">
+</div>
+<div class="form-group col-md-5">
+    <label for="vin">VIN Number</label>
+    <input type="text" class="form-control" id="vin">
+</div>
+</div>
+<div class="form-row">
+    <div class="form-group col-md-1">
+    <label for="year">Year</label>
+    <input type="year" class="form-control" id="year">
+</div>
+<div class="form-group col-md-3">
+    <label for="make">Make</label>
+    <input type="make" class="form-control" id="make">
+</div>
+<div class="form-group col-md-3">
+    <label for="model">Model</label>
+    <input type="model" class="form-control" id="model">
+</div>
+<div class="form-group col-md-5">
+    <label for="vin">VIN Number</label>
+    <input type="text" class="form-control" id="vin">
+</div>
+</div>
+</form>
+<br>
+<hr>
+<br>
+<div class="form-group">
+    <label for="exampleFormControlTextarea1">Additional Information (tickets and/or accidents)</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+    </div>
+
+    <br>
+<br>
+<hr>
+<br>
+<div class='btAutoForm'>
+        <div class="d-grid gap-2 d-md-block">
+        <button class="btn btn-danger" type="button"><a href="AutoInsurance.html">Back</a></button>
+        <button class="btn btn-info" type="button">Submit</button>
+    </div>
+</div>
+                    <br>
         </div>
         </div>
     </div>
 </div>
-<br>
-<!--Body-->
-<div class="container-fluid">
-    <div class="card border-light mb-3" style="max-width:;">
-        <div class="row no-gutters">
-            <div class="col-md-4 d-flex justify-content-center">
-            <img src="images/SitePics/FamBuyingHome.png"  class="card-img w-75" alt="...">
-            </div>
-            <div class="col-md-8">
-            <div class="card-body">
-                <h5 class="card-title">Home Insurance</h5>
-                <p class="card-text">Your home is one of the biggest investments you'll  ever make. Your home is where you spend countless hours making memories with your loved ones. Protect your family and your future with one of our home insurance policies. </p>
-                <p>If your home ever need to be rebuilt, these are some of the factors that will determine reconstruction cost: </p>
-                    
-                    <li>The square footage of the structure</li>
-                    <li>The type of exterior wall construction-frame, masonry (brick or stone) or veneer.</li>
-                    <li>Fireplace, exterior trim, or any other special features such as bay window, awning, etc.</li>
-                    <li>Other structures such as detached garage and/or sheds.</li>
-                    <br>
-                <p>
-                    <h5>Home Insurance Discounts</h5>
-
-                    <li>Multi-Policy</li>
-                    <li>Home Alarm</li>
-
-
-                </p>
-                
-            </div>
-            </div>
-        </div>
-    </div>
-
-    <div  class="container-fluid d-flex justify-content-center">
-        <button type="button" class="btn btn-info"><a href="Home_QT_Req.html">Home Quote Request</a></button>
-    </div>
-    
+</div>
 
 <br>
+
 
 
 <!--Quote Request Form on top right corner-->
@@ -196,9 +411,6 @@
                 <div class="form-row">
                     <label for="exampleInputEmail1">Phone Number</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
-                    
-                    
-
                 </div>
                 <div class="form-group">
                 <label for="inputAddress">Address</label>
@@ -237,6 +449,8 @@
         </div>
     </div>
 </div>
+<br>
+
 <!--Quote Request Form on top right corner-->
 
 

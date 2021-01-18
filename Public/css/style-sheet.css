@@ -3,6 +3,9 @@ body {
     clear: all;
 }
 
+a {
+    color: black;
+}
 
 #requestQuote {
     float: right;
@@ -92,4 +95,14 @@ body {top:0 !important;}
 .spanish {
     word-wrap: break-word;
     
+}
+
+/*Auto Req Form*/
+
+.autoReq {
+    text-align: center;
+}
+
+.btAutoForm {
+    float: right;
 }
