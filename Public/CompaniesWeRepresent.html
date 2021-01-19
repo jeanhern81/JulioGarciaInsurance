@@ -21,8 +21,9 @@
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <!--StyleSheet-->
-    <link rel="stylesheet" href="Public/css/style-sheet.css">
-    <title>Julio Garcia Insurance</title>
+    <link rel="stylesheet" href="css/style-sheet.css">
+
+    <title>JGI - Companies</title>
 </head>
 
 <body>
@@ -32,20 +33,16 @@
         <!--Logo row to the right of the site-->
         <div class="row">
             <div class="col-sm"><a class="navbar-brand" href="/index.html" >
-                <img src="Public/images/Logo/JulioNameLogo.png" alt='julio garcia insurance logo' width="100%" id='indexlogo'></a></div>
+                <img src="images/Logo/JulioNameLogo.png" alt='julio garcia insurance logo' width="100%" id='indexlogo'></a></div>
         
         <!--Req Qt Button to the left and with go beneath logo when in responsive mode-->
-        
-            <div class="col-sm-"><button type="button" class="btn btn-info" data-toggle="modal" data-target=".bd-example-modal-lg">
+            <div class="col-sm-"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#requestQT">
                 Contact Us!
             </button>
             </div> 
             <a class="nav-link phoneNumber" id="phoneNumber"><i class="fas fa-phone-alt"> (832) 779-4300</i></a>
             <div class="spanish">
                 <p class><h5>Se Habla Español</h5></p></div>
-            
-
-            
         </div>
 </div>
 
@@ -60,7 +57,7 @@
 
                 
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/index.html">Home</i> <span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item dropdown">
@@ -68,18 +65,18 @@
                 Personal Insurance
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="Public/AutoInsurance.html">Auto Insurance</a>
-                <a class="dropdown-item" href="Public/HomeInsurance.html">Home Insurance</a>
-                <a class="dropdown-item" href="Public/LifeInsurance.html">Life Insurance</a>
-                
+                <a class="dropdown-item" href="/Public/AutoInsurance.html">Auto Insurance</a>
+                <a class="dropdown-item" href="/Public/HomeInsurance.html">Home Insurance</a>
+                <a class="dropdown-item" href="/Public/LifeInsurance.html">Life Insurance</a>
                 </di>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="Public/CommercialInsurance.html">Commercial Insurance</a>
+                <a class="nav-link" href="CommercialInsurance.html">Commercial Insurance</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="Public/CompaniesWeRepresent.html">Companies We Represent</a>
+                <a class="nav-link" href="CompaniesWeRepresent.html">Companies We Represent</a>
             </li>
+
 
             <li class="nav-item">
                 <a class="nav-link" href="#">Claim</a>
@@ -93,29 +90,26 @@
 
 
 
-<!--Jumbotron image-->
-<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-        <img src="Public/images/SitePics/young-hispanic-family-insurance.jpg" class="d-block w-100" alt="family sitting on the floor with moving boxes">
-        <div class="carousel-caption d-none d-md-block">
-            <h2>Get Your Quote Today</h2>
-            <p>At Julio Garcia Insurance Agency, we offer FREE quotes on all of our insurance services.</p>
-        </div>
-        </div>
-    </div>
+
+<br>
+<!--Body-->
+
+<div class="container-sm">
+    <h2 class='autoReq'>Companies We Represent</h2>
+<br>
+
+
+
 </div>
 
-<!--Quote Request Modal Form-->
+
+<!--Quote Request Form on top right corner-->
 <!-- Modal -->
-<div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade bd-example-modal-lg " id="requestQT"  tabindex="-1" role="dialog" aria-labelledby="requestQT" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
         <div class="modal-header ">
-        <h5 class="modal-title " id="exampleModalCenterTitle">REQUEST A QUOTE</h5>
+        <h5 class="modal-title " id="requestQuote">REQUEST A QUOTE</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
@@ -150,9 +144,6 @@
                 <div class="form-row">
                     <label for="exampleInputEmail1">Phone Number</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
-                    
-                    
-
                 </div>
                 <div class="form-group">
                 <label for="inputAddress">Address</label>
@@ -191,6 +182,15 @@
         </div>
     </div>
 </div>
+<br>
+
+<!--Quote Request Form on top right corner-->
+
+
+
+
+
+
 
 
 
@@ -208,13 +208,13 @@
             <p>Privacy Policy</p>
         </div>
         <br>
-    <div class="f3">
+        <div class="f3">
         <p>Translate this page:</p>
+
 <!-- GTranslate: https://gtranslate.io/ -->
+
     <div id="google_translate_element"></div>
-
     </div>
-
     <hr>
     <div class="text-center">
         <p class=""></p><i class="far fa-copyright " id="f4"> Julio Garcia Insurance  </i> </p>
@@ -226,9 +226,9 @@
 </footer>
 
 
-
 <!--my javascript code-->
-<link rel="javascript" href="Public/js/script.js" />
+<link rel="javascript" href="js/script.js" />
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
