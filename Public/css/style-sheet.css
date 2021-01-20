@@ -112,6 +112,7 @@ body {top:0 !important;}
 }
 
 /*Commercial Ins*/
-#commercialIns {
+#commercialIns,
+#petIns {
     color: black;
 }
