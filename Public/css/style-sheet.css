@@ -113,6 +113,12 @@ body {top:0 !important;}
 
 /*Commercial Ins*/
 #commercialIns,
-#petIns {
+#petIns,
+{
     color: black;
+}
+
+
+.insType {
+    font-size: small;
 }
