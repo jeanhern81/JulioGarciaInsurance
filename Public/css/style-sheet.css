@@ -122,3 +122,19 @@ body {top:0 !important;}
 .insType {
     font-size: small;
 }
+
+
+/*Contact Us*/
+
+#contactUs {
+    padding-left: 20px;
+}
+
+.card-text {
+    margin-bottom:  0%;
+}
+
+.card-img {
+    margin-top: 25%;
+
+}
