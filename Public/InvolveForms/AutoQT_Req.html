@@ -21,9 +21,9 @@
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <!--StyleSheet-->
-    <link rel="stylesheet" href="css/style-sheet.css">
+    <link rel="stylesheet" href="style-sheet.css">
 
-    <title>JGI - Life</title>
+    <title>JGI - Auto</title>
 </head>
 
 <body>
@@ -33,7 +33,7 @@
         <!--Logo row to the right of the site-->
         <div class="row">
             <div class="col-sm"><a class="navbar-brand" href="/index.html" >
-                <img src="images/Logo/JulioNameLogo.png" alt='julio garcia insurance logo' width="100%" id='indexlogo'></a></div>
+                <img src="/Public/images/Logo/JulioNameLogo.png" alt='julio garcia insurance logo' width="100%" id='indexlogo'></a></div>
         
         <!--Req Qt Button to the left and with go beneath logo when in responsive mode-->
             <div class="col-sm-"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#requestQT">
@@ -65,19 +65,19 @@
                 Personal Insurance
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="AutoInsurance.html">Auto Insurance</a>
-                <a class="dropdown-item" href="HomeInsurance.html">Home Insurance</a>
-                <a class="dropdown-item" href="LifeInsurance.html">Life Insurance</a>
+                <a class="dropdown-item" href="/Public/AutoInsurance.html">Auto Insurance</a>
+                <a class="dropdown-item" href="/Public/HomeInsurance.html">Home Insurance</a>
+                <a class="dropdown-item" href="/Public/LifeInsurance.html">Life Insurance</a>
                 </di>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="CommercialInsurance.html">Commercial Insurance</a>
+                <a class="nav-link" href="/Public/CommercialInsurance.html">Commercial Insurance</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="PetInsurance.html">Pet Insurance</a>
+                <a class="nav-link" href="/Public/PetInsurance.html">Pet Insurance</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="CompaniesWeRepresent.html">Companies We Represent</a>
+                <a class="nav-link" href="/Public/CompaniesWeRepresent.html">Companies We Represent</a>
             </li>
 
             </ul>
@@ -85,70 +85,42 @@
     </nav>
 
 
-
-<!--Jumbotron image-->
-<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-        <img src="images/SitePics/family-life-insurance.jpg" class="d-block w-100" alt="family sitting on the floor with moving boxes">
-        <div class="carousel-caption d-none d-md-block">
-            <h2></h2>
-            <p></p>
-        </div>
-        </div>
-    </div>
-</div>
-
-
 <!--Body-->
 
-<br>
-<div class="siteHeading"><p><h3>Life Insurance</h3> </p></div>
-<br>
-<div class="container-fluid">
-    <div class="card border-light mb-3" style="max-width:;">
-        <div class="row no-gutters">
-            <div class="col-md-4 d-flex justify-content-center">
-            <img src="images/SitePics/LifeInsRoundedImage.png"  class="card-img w-auto" alt="...">
-            </div>
-            <div class="col-md-8">
-            <div class="card-body">
-                <h5 class="card-title">Let us help you protect your most precious asset, your family!</h5>
-                <p>At Julio Garcia Insurance we will help you choose the best policy that best fits your needs. </p>
-                <br>
-                <p class="card-text"> What are the principal types of life insurance? </p>
-
-                    <li>Term</li>
-                    <p>Term Insurance is the simplest form of insurance. It pays only if the death occurs during the term of the policy. </p>
-
-                    <li>Whole Life/Permanent Life</li>
-                    <p>Whole Life Insurance covers the person for the duration of their life as long the premiums are paid on time. /p>
-                    <br>
-
-
-                </p>
-
-                
-                
-            </div>
-            </div>
-        </div>
-    </div>
-
     <!--Auto Quote Request-->
-    <div class="container-fluid d-flex justify-content-center">
-
-        <button type="button" class="btn btn-outline-info"><a href="/Public/InvolveForms/LifeQT_Req.html">Life Insurance Request</a></button>
-    </div>
+<div class="container-md">   
 
 
 
 
+<form>
+
+    <div class="involveme_embed" data-embed="thewebdevstudio/design-assets-subscription-15d9-d4452eaf5446"></div>
+    <script src="https://app.involve.me/embed"></script>
 
 <br>
+<br>
+
+<div class='btAutoForm'>
+        <div class="d-grid gap-2 d-md-block">
+        <button class="btn btn-outline-secondary" type="button"><a href="/Public/AutoInsurance.html">Back</a></button>
+        
+</div>
+</div>
+<br>
+<hr>
+    <br>
+        </div>
+</form>
+
+
+<div class='container-fluid'>
+    <div class="text-center">
+        <p>Please Note that coverage cannot be bound via quote request form.</p>
+    </div>
+    
+</div>
+
 
 
 <!--Quote Request Form on top right corner-->
@@ -168,14 +140,19 @@
                 </form>
         </div>
         <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
             
         </div>
         </div>
     </div>
 </div>
+
+
+<br>
+
 <!--Quote Request Form on top right corner-->
+
 
 
 
@@ -197,25 +174,29 @@
         </div>
         <div class="f2">
             <br>
-            <p><a href="ContactUs.html">Contact Us</a></p>
-            <p><a href="PrivacyPolicy.html">Privacy Policy</a></p>
+            <p><a href="/Public/ContactUs.html">Contact Us</a></p>
+            <p><a href="/Public/PrivacyPolicy.html">Privacy Policy</a></p>
         </div>
         <br>
     <div class="f3">
         <p>Translate this page:</p>
 <!-- GTranslate: https://gtranslate.io/ -->
     <div id="google_translate_element"></div>
-
     </div>
+
+    <br>
 
     <div class="text-center">
         <p class=""></p><i class="far fa-copyright " id="f4"> Julio Garcia Insurance  </i> </p>
         <p class="" id="f4"> All content on this website is owned by Julio Garcia and our licensors. Do not use without our consent.</p>
         <p class="" id="f4">Website created by <a href='www.thewebdevstudio.com'>The Web Dev Studio</a>. All rights reserved.</p>
     </div>
+
+
         <br>
     </nav>
 </footer>
+
 
 
 

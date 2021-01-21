@@ -1,0 +1,66 @@
+.card-img {
+    margin-top: 25%;
+
+}
+
+
+.siteHeading {
+    text-align: center;
+}
+
+
+body {
+    font-family: 'Lora', serif;
+    clear: all;
+}
+
+/*Footer*/
+
+
+/*Footer Styling*/
+.footer {
+    
+    width: 100%;
+}
+.f1 {    
+    padding: 0;
+    margin: 0;
+
+}
+
+.f1,
+.f2,
+.f3 {
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: left;
+    font-size: 14px;
+    padding: 0 8%;
+    min-width: 300px;
+    width: 33%;
+
+}
+
+
+#f4 {
+font-size: 14px;
+    
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 75%;               
+    background-color:#d7d1d1;
+    height: 1px;
+}
+
+
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+.goog-te-gadget-icon {background-image:url(//gtranslate.net/flags/gt_logo_19x19.gif) !important;background-position:0 0 !important;}
+body {top:0 !important;}
