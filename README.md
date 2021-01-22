@@ -6,7 +6,7 @@ Website created for Julio Garcia Insurance agency, based out of Houston Texas wh
 
 ## Demo
 
-![Screenshot](Public/images/Screenshot.JPG)
+![Screenshot](/images/Screenshot.JPG)
 
 ## Developer:
 
