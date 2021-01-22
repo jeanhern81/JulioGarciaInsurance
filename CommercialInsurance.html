@@ -21,9 +21,9 @@
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <!--StyleSheet-->
-    <link rel="stylesheet" href="style-sheet.css">
+    <link rel="stylesheet" href="css/style-sheet.css">
 
-    <title>JGI - Commercial</title>
+    <title>JGI - Business</title>
 </head>
 
 <body>
@@ -33,7 +33,7 @@
         <!--Logo row to the right of the site-->
         <div class="row">
             <div class="col-sm"><a class="navbar-brand" href="/index.html" >
-                <img src="/Public/images/Logo/JulioNameLogo.png" alt='julio garcia insurance logo' width="100%" id='indexlogo'></a></div>
+                <img src="images/Logo/JulioNameLogo.png" alt='julio garcia insurance logo' width="100%" id='indexlogo'></a></div>
         
         <!--Req Qt Button to the left and with go beneath logo when in responsive mode-->
             <div class="col-sm-"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#requestQT">
@@ -65,19 +65,19 @@
                 Personal Insurance
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="/Public/AutoInsurance.html">Auto Insurance</a>
-                <a class="dropdown-item" href="/Public/HomeInsurance.html">Home Insurance</a>
-                <a class="dropdown-item" href="/Public/LifeInsurance.html">Life Insurance</a>
+                <a class="dropdown-item" href="AutoInsurance.html">Auto Insurance</a>
+                <a class="dropdown-item" href="HomeInsurance.html">Home Insurance</a>
+                <a class="dropdown-item" href="LifeInsurance.html">Life Insurance</a>
                 </di>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/Public/CommercialInsurance.html">Commercial Insurance</a>
+                <a class="nav-link" href="CommercialInsurance.html">Commercial Insurance</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/Public/PetInsurance.html">Pet Insurance</a>
+                <a class="nav-link" href="PetInsurance.html">Pet Insurance</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/Public/CompaniesWeRepresent.html">Companies We Represent</a>
+                <a class="nav-link" href="CompaniesWeRepresent.html">Companies We Represent</a>
             </li>
 
             </ul>
@@ -85,42 +85,60 @@
     </nav>
 
 
+
+<!--Jumbotron image-->
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="images/SitePics/CommercialBanner.jpg" class="d-block w-100" alt="interior of a vehicle focusing on the steering wheel and radio">
+        <div class="carousel-caption d-none d-md-block">
+            <h2 id="commercialIns"></h2>
+            <p></p>
+        </div>
+        </div>
+    </div>
+</div>
+
+
 <!--Body-->
 
-    <!--Auto Quote Request-->
-<div class="container-md">
+<br>
+<div class="siteHeading"><p><h3>Commercial Insurance</h3> </p></div>
+<br>
 
-<h2 class='autoReq'></h2>
-<form>
-
-
-    <div class="involveme_embed" data-embed="thewebdevstudio/design-assets-subscription-15d9-copy"></div>
-    <script src="https://app.involve.me/embed"></script>
-
-
-
-
-
-<div class='btAutoForm'>
-        <div class="d-grid gap-2 d-md-block">
-        <button class="btn btn-outline-secondary" type="button"><a href="/Public/CommercialInsurance.html">Back</a></button>
-        
-</div>
-</div>
-<br><hr><br>
-</div>
-        
-
-</form>
-
-<div class='container-fluid'>
-    <div class="text-center">
-        <p>Please Note that coverage cannot be bound via quote request form</p>
+<div class="container-fluid">
+    <div class="card border-light mb-3" style="max-width:;">
+        <div class="row no-gutters">
+            <div class="col-md-4 d-flex justify-content-center">
+            <img src="images/SitePics/Commercial_Round_Image.png"  class="card-img w-auto" alt="...">
+            </div>
+            <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">Commercial Insurance</h5>
+                <p class="card-text">At Julio Garcia Insurance is one of the leading commercical insurance brokers in the Houston area. Let us help you find the best policy that will fit your needs. </p>
+                <p>We offer a full range policies, such as:</p>
+                    <li>General Liability</li>
+                    <li>Property/building and content</li>
+                    <li>Contractors Insurance</li>
+                    <li>Commercial Auto</li>
+                    <li>Workers' Compensation </li>
+                    <ul> and more!</li>
+                </p>
+            </div>
+            </div>
+        </div>
     </div>
-    
-</div>
 
+    <!--Auto Quote Request-->
+    <div class="container-fluid d-flex justify-content-center">
 
+        <button type="button" class="btn btn-outline-info"><a href="/InvolveForms/CommercialQT_Req.html">Commercial Request</a></button>
+    </div>
+
+<br>
 
 <!--Quote Request Form on top right corner-->
 <!-- Modal -->
@@ -139,7 +157,7 @@
                 </form>
         </div>
         <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
             
         </div>
@@ -147,6 +165,12 @@
     </div>
 </div>
 <!--Quote Request Form on top right corner-->
+
+
+
+
+
+
 
 
 
@@ -164,15 +188,15 @@
         </div>
         <div class="f2">
             <br>
-            <p><a href="/Public/ContactUs.html">Contact Us</a></p>
-            <p><a href="/Public/PrivacyPolicy.html">Privacy Policy</a></p>
+            <p><a href="ContactUs.html">Contact Us</a></p>
+            <p><a href="PrivacyPolicy.html">Privacy Policy</a></p>
         </div>
         <br>
     <div class="f3">
         <p>Translate this page:</p>
 <!-- GTranslate: https://gtranslate.io/ -->
     <div id="google_translate_element"></div>
-
+    
     </div>
 
     <div class="text-center">
@@ -187,7 +211,7 @@
 
 
 <!--my javascript code-->
-<link rel="javascript" href="/Public/js/script.js" />
+<link rel="javascript" href="Public/js/script.js" />
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

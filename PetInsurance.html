@@ -21,9 +21,9 @@
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <!--StyleSheet-->
-    <link rel="stylesheet" href="style-sheet.css">
+    <link rel="stylesheet" href="css/style-sheet.css">
 
-    <title>JGI - Home</title>
+    <title>JGI - Pet</title>
 </head>
 
 <body>
@@ -33,7 +33,7 @@
         <!--Logo row to the right of the site-->
         <div class="row">
             <div class="col-sm"><a class="navbar-brand" href="/index.html" >
-                <img src="/Public/images/Logo/JulioNameLogo.png" alt='julio garcia insurance logo' width="100%" id='indexlogo'></a></div>
+                <img src="images/Logo/JulioNameLogo.png" alt='julio garcia insurance logo' width="100%" id='indexlogo'></a></div>
         
         <!--Req Qt Button to the left and with go beneath logo when in responsive mode-->
             <div class="col-sm-"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#requestQT">
@@ -65,9 +65,9 @@
                 Personal Insurance
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="/Public/AutoInsurance.html">Auto Insurance</a>
-                <a class="dropdown-item" href="/Public/HomeInsurance.html">Home Insurance</a>
-                <a class="dropdown-item" href="/Public/LifeInsurance.html">Life Insurance</a>
+                <a class="dropdown-item" href="AutoInsurance.html">Auto Insurance</a>
+                <a class="dropdown-item" href="HomeInsurance.html">Home Insurance</a>
+                <a class="dropdown-item" href="LifeInsurance.html">Life Insurance</a>
                 </di>
             </li>
             <li class="nav-item">
@@ -86,40 +86,65 @@
 
 
 
+<!--Jumbotron image-->
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="images/SitePics/PetBanner.jpg" class="d-block w-100" alt="interior of a vehicle focusing on the steering wheel and radio">
+        <div class="carousel-caption d-none d-md-block">
+            <h2 id="petIns"></h2>
+            <p></p>
+        </div>
+        </div>
+    </div>
+</div>
+
+
 <!--Body-->
+<br>
+
+<div class="siteHeading"><p><h3>Pet Insurance</h3> </p></div>
+
+
+<div class="container-fluid">
+    <div class="card border-light mb-3" style="max-width:;">
+        <div class="row no-gutters">
+            <div class="col-md-4 d-flex justify-content-center">
+            <img src="images/SitePics/GirlWPup.png"  class="card-img w-auto" alt="keys being handed to someone who just bought a car">
+            </div>
+            <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text">At Julio Garcia Insurance, we know that your pets hold a special place in your family. We currently offer pet insurance to help protect your furry companions.  </p>
+                <p>Some of the coverage inclues:</p>
+                    <li>Accidents</li>
+                    <li>Prescription Medication</li>
+                    <li>Dental Cleaning</li>
+                    <li>Emergency Care</li>
+                    <br>
+                </p>
+                
+                <p></p>
+            </div>
+            </div>
+        </div>
+    </div>
 
     <!--Auto Quote Request-->
-<div class="container-md">
+    <div class="container-fluid d-flex justify-content-center">
 
-    
-<h2 class='autoReq'></h2>
-
-    
-<form>
-    <div class="involveme_embed" data-embed="thewebdevstudio/design-assets-subscription-15d9"></div>
-    <script src="https://app.involve.me/embed"></script>
-<div class='btAutoForm'>
-        <div class="d-grid gap-2 d-md-block">
-        <button class="btn btn-outline-secondary" type="button"><a href="/Public/HomeInsurance.html">Back</a></button>
-</div>
-</div>
-<br><hr><br>
-        </div>
-        
-</form>
-
-<div class='container-fluid'>
-    <div class="text-center">
-
-        <p>Please Note that coverage cannot be bound via quote request form.</p>
+        <button type="button" class="btn btn-outline-info"><a href="InvolveForms/PetQT_Req.html">Pet Quote Request</a></button>
     </div>
-    
-</div>
 
 
 
 
-</form>
+
+<br>
+
 
 <!--Quote Request Form on top right corner-->
 <!-- Modal -->
@@ -145,13 +170,6 @@
         </div>
     </div>
 </div>
-<!--Quote Request Form on top right corner-->
-
-
-
-
-
-
 
 
 
@@ -162,14 +180,14 @@
         <div class="f1">
             <br>
             <h6>Quick Links</h6>
-            <li><a href="/Public/Auto_QT_Req.html">Auto Quote Request</a></li>
-            <li><a href="/Public/Home_QT_Req.html">Home Quote Request</a></li>
-            <li><a href="/Public/Commercial_QT_Req.html">Commercial Insurance Request</a></li>
+            <li><a href="/InvolveForms/AutoQT_Req.html">Auto Quote Request</a></li>
+            <li><a href="/InvolveForms/HomeQT_Req.html">Home Quote Request</a></li>
+            <li><a href="/InvolveForms/CommercialQT_Req.html">Commercial Insurance Request</a></li>
         </div>
         <div class="f2">
             <br>
-            <p><a href="ContactUs.html">Contact Us</a></p>
-            <p><a href="PrivacyPolicy.html">Privacy Policy</a></p>
+            <p><a href="/ContactUs.html">Contact Us</a></p>
+            <p><a href="/PrivacyPolicy.html">Privacy Policy</a></p>
         </div>
         <br>
     <div class="f3">
@@ -178,6 +196,7 @@
     <div id="google_translate_element"></div>
 
     </div>
+
     <div class="text-center">
         <p class=""></p><i class="far fa-copyright " id="f4"> Julio Garcia Insurance  </i> </p>
         <p class="" id="f4"> All content on this website is owned by Julio Garcia and our licensors. Do not use without our consent.</p>
@@ -206,7 +225,6 @@
         {new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay: false, includedLanguages: ''}, 'google_translate_element');}
     </script>
 
-
 <!-- GTranslate: https://gtranslate.io/ -->
 
 <style type="text/css">
@@ -225,5 +243,14 @@
     <script type="text/javascript">
     function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay: false, includedLanguages: ''}, 'google_translate_element');}
     </script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
 </body>
 </html>
+
+
+
+
+
+
+
+
