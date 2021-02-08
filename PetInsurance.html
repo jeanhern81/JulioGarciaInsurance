@@ -22,6 +22,7 @@
 
     <!--StyleSheet-->
     <link rel="stylesheet" href="css/style-sheet.css">
+    <link rel="stylesheet" href="css/addlFooter.css">
 
     <title>JGI - Pet</title>
 </head>
@@ -33,22 +34,22 @@
         <!--Logo row to the right of the site-->
         <div class="row">
             <div class="col-sm"><a class="navbar-brand" href="/index.html" >
-                <img src="images/Logo/JulioNameLogo.png" alt='julio garcia insurance logo' width="100%" id='indexlogo'></a></div>
+                <img src="images/Logo/JGarciaSunLogo.png" alt='julio garcia insurance logo' width="100%" id='indexlogo'></a></div>
         
         <!--Req Qt Button to the left and with go beneath logo when in responsive mode-->
             <div class="col-sm-"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#requestQT">
                 Contact Us!
             </button>
             </div> 
-            <a class="nav-link phoneNumber" id="phoneNumber">Main: <i class="fas fa-phone-alt">  (832) 645-5100</i></a>
-            <a class="nav-link phoneNumber" id="phoneNumber"><i class="fas fa-phone-alt">  (979) 282-5500</i></a>
+            <p class="nav-link phoneNumber" id="phoneNumber">Main: <i class="fas fa-phone-alt">  (832) 645-5100</i></p>
+            <p class="nav-link phoneNumber" id="phoneNumber"><i class="fas fa-phone-alt">  (979) 282-5500</i></p>
             <div class="spanish">
-                <p class><h5>Se Habla Español</h5></p></div>
+                <p ><h5 class='seHabla'>Se Habla Español</h5></p></div>
         </div>
 </div>
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg bg-light" id='navBar'>
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -137,7 +138,7 @@
     <!--Auto Quote Request-->
     <div class="container-fluid d-flex justify-content-center">
 
-        <button type="button" class="btn btn-outline-info"><a href="https://trustedpals.co/35d7G9F" target="_blank">Pet Quote Request</a></button>
+        <button type="button" class="btn btn-info" id='request'><a href="https://trustedpals.co/35d7G9F" target="_blank">Pet Quote Request</a></button>
     </div>
 
 
@@ -176,7 +177,7 @@
 
 
 <!--Footer-->
-<footer>
+<footer class='footer'>
     <nav class="navbar bottom navbar-light bg-light size-small d-flex justify-content-center" >
         <div class="f1">
             <br>
@@ -210,7 +211,7 @@
 
 
 <!--my javascript code-->
-<link rel="javascript" href="Public/js/script.js" />
+<link rel="javascript" href="js/script.js" />
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -228,17 +229,7 @@
 
 <!-- GTranslate: https://gtranslate.io/ -->
 
-<style type="text/css">
-    <!--
-    #goog-gt-tt {display:none !important;}
-    .goog-te-banner-frame {display:none !important;}
-    .goog-te-menu-value:hover {text-decoration:none !important;}
-    .goog-te-gadget-icon {background-image:url(//gtranslate.net/flags/gt_logo_19x19.gif) !important;background-position:0 0 !important;}
-    body {top:0 !important;}
-    -->
-    </style>
-    
-    
+
     <div id="google_translate_element"></div>
     
     <script type="text/javascript">

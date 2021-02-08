@@ -39,8 +39,7 @@ a {
 
 /*Footer Styling*/
 .footer {
-    
-    width: 100%;
+    width: ;
 }
 .f1 {    
     padding: 0;
@@ -78,6 +77,7 @@ hr {
     height: 1px;
 }
 
+
 /*
 #goog-gt-tt {display:none !important;}
 .goog-te-banner-frame {display:none !important;}
@@ -94,10 +94,66 @@ body {top:0 !important;}
 .goog-te-gadget-icon {background-image:url(//gtranslate.net/flags/gt_logo_19x19.gif) !important;background-position:0 0 !important;}
 body {top:0 !important;}
 
+/* styling for navbar and alert bar */
 
+.contactUs,
+.request {
+color: black
+}
 
+.requestInstantQt {
+    padding-top: -15%;
+}
 
+/* ContactUs*/
+.btn-info  {
+    background-color: #f9a012;
+}
 
+.btn-info:hover {background-color: #f9a012;}
+
+.btn-info {
+    border: #f9a012;
+    margin-top: 5%;
+}
+
+#phoneNumber {
+    color: black;
+
+}
+.fa-phone-alt {
+    color: black;
+}
+
+.seHabla {
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.alert {
+    margin-bottom: -.5%;
+}
+#navBar {
+    background-color: #f9a012 !important;
+    color: whitesmoke !important;
+}
+
+.dropdown-item {
+    color: black;
+
+}
+
+a.dropdown-item:hover {
+    background-color:#f9a0129d;
+}
+
+a:hover {
+    color: whitesmoke !important;
+}
+.bottom {
+    background-color: #f9a0129d !important;
+}
 
 
 #rqQuote {

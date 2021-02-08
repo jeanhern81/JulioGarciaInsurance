@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="Insurance agency speciailizing in home, auto, business, commercial, pet, and life insurance in the Houston Texas area.">
-  
+    <link rel="shortcut icon" type="image/jpg" href="Favicon_Image_Location"/>
     <meta name="google-site-verification" content="op6A4lIEKI0zNTOIPksb7kdC8EX_fkGadTMA0aKMta0" />
     <!--jQuery-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script> 
@@ -23,7 +23,6 @@
 
     <!--StyleSheet-->
     <link rel="stylesheet" href="css/style-sheet.css">
-   
 
     <title>Julio Garcia Insurance</title>
 
@@ -37,18 +36,18 @@
         <!--Logo row to the right of the site-->
         <div class="row">
             <div class="col-sm"><a class="navbar-brand" href="/index.html" >
-                <img src="images/Logo/JulioNameLogo.png" alt='julio garcia insurance logo' width="100%" id='indexlogo'></a></div>
+                <img src="images/Logo/JGarciaSunLogo.png" alt='julio garcia insurance logo' width="100%" id='indexlogo'></a></div>
         
         <!--Req Qt Button to the left and with go beneath logo when in responsive mode-->
         
-            <div class="col-sm-"><button type="button" class="btn btn-info" data-toggle="modal" data-target=".bd-example-modal-lg">
+            <div class="col-sm-"><button type="button" class="btn btn-info contactUs" data-toggle="modal" data-target=".bd-example-modal-lg">
                 Contact Us!
             </button>
             </div> 
-            <a class="nav-link phoneNumber" id="phoneNumber">Main: <i class="fas fa-phone-alt">  (832) 645-5100</i></a>
-            <a class="nav-link phoneNumber" id="phoneNumber"><i class="fas fa-phone-alt">  (979) 282-5500</i></a>
+            <p class="nav-link phoneNumber" id="phoneNumber">Main: <i class="fas fa-phone-alt">  (832) 645-5100</i></p>
+            <p class="nav-link phoneNumber" id="phoneNumber"><i class="fas fa-phone-alt">  (979) 282-5500</i></p>
             <div class="spanish">
-                <p class><h5>Se Habla Español</h5></p></div>
+                <p ><h6 class="seHabla">Se Habla Español</h6></p></div>
             
 
             
@@ -56,7 +55,7 @@
 </div>
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg bg-light" id='navBar'>
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -139,7 +138,7 @@
 
 
 <!--Footer-->
-<footer>
+<footer class='footer'>
     <nav class="navbar bottom navbar-light bg-light size-small d-flex justify-content-center" >
         <div class="f1">
             <br>
@@ -158,11 +157,8 @@
         <p>Translate this page:</p>
 <!-- GTranslate: https://gtranslate.io/ -->
     <div id="google_translate_element"></div>
-    <!-- GTranslate: https://gtranslate.io/ -->
-    <script type="text/javascript">
-        function googleTranslateElementInit() 
-        {new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay: false, includedLanguages: ''}, 'google_translate_element');}
-    </script>
+
+
 
     
 
@@ -194,22 +190,17 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
 
-<style type="text/css">
-    <!--
-    #goog-gt-tt {display:none !important;}
-    .goog-te-banner-frame {display:none !important;}
-    .goog-te-menu-value:hover {text-decoration:none !important;}
-    .goog-te-gadget-icon {background-image:url(//gtranslate.net/flags/gt_logo_19x19.gif) !important;background-position:0 0 !important;}
-    body {top:0 !important;}
-    -->
-    </style>
+
     
     
     <div id="google_translate_element"></div>
-    
+
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script type="text/javascript">
-    function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay: false, includedLanguages: ''}, 'google_translate_element');}
-    </script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    function googleTranslateElementInit() 
+    {new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay: false, includedLanguages: ''}, 'google_translate_element');}
+    </script>
+    
 
 
 
