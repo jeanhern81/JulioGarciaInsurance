@@ -134,21 +134,31 @@ color: black
 .alert {
     margin-bottom: -.5%;
 }
+
 #navBar {
     background-color: #f9a012 !important;
-    color: whitesmoke !important;
+    color: black !important;
 }
 
 .dropdown-item {
     color: black;
 
 }
-.navbar-toggler,
-.navbar-toggler-icon,
-span.navbar-toggler-icon {
-    color: whitesmoke !important;
+button.navbar-toggler,
+
+span.navbar-toggler-icon,
+.navbar-light {
+    color: transparent !important;
     border: 1px solid whitesmoke !important;
+    
 }
+
+a.nav-link{
+color: black !important;
+
+
+}
+
 
 a.dropdown-item:hover {
     background-color:#f9a0129d;
