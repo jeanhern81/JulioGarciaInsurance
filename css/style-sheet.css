@@ -143,10 +143,17 @@ color: black
     color: black;
 
 }
+.navbar-toggler,
+.navbar-toggler-icon,
+span.navbar-toggler-icon {
+    color: whitesmoke !important;
+    border: 1px solid whitesmoke !important;
+}
 
 a.dropdown-item:hover {
     background-color:#f9a0129d;
 }
+
 
 a:hover {
     color: whitesmoke !important;
