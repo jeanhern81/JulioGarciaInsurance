@@ -44,7 +44,7 @@ a {
 .f1 {    
     padding: 0;
     margin: 0;
-
+    color: black;
 }
 
 .f1,
@@ -59,14 +59,20 @@ a {
     padding: 0 8%;
     min-width: 300px;
     width: 33%;
+    
 
 }
 
+#f1 {
+    color: black;
+}
 
 #f4 {
 font-size: 14px;
-    color:black;
+    color:black !important;
 }
+
+
 
 hr {
     border: 0;
