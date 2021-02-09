@@ -65,7 +65,7 @@ a {
 
 #f4 {
 font-size: 14px;
-    
+    color:black;
 }
 
 hr {
@@ -76,16 +76,6 @@ hr {
     background-color:#d7d1d1;
     height: 1px;
 }
-
-
-/*
-#goog-gt-tt {display:none !important;}
-.goog-te-banner-frame {display:none !important;}
-.goog-te-menu-value:hover {text-decoration:none !important;}
-.goog-te-gadget-icon {background-image:url(//gtranslate.net/flags/gt_logo_19x19.gif) !important;background-position:0 0 !important;}
-body {top:0 !important;}
-*/
-
 
 
 #goog-gt-tt {display:none !important;}
