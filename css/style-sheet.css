@@ -122,11 +122,15 @@ color: black
     color: black;
 }
 
-.seHabla {
+div.spanish.seHabla {
     color: black;
     font-size: large;
     font-weight: bolder;
+    margin-top: 2%;
+    margin-left: -15%;
+    overflow-x: auto;
 }
+
 
 .alert {
     margin-bottom: -.5%;
@@ -231,4 +235,5 @@ a:hover {
 .card-text {
     margin-bottom:  0%;
 }
+
 
