@@ -44,7 +44,7 @@ a {
 .f1 {    
     padding: 0;
     margin: 0;
-    color: black;
+    color: whitesmoke;
 }
 
 .f1,
@@ -59,21 +59,27 @@ a {
     padding: 0 8%;
     min-width: 300px;
     width: 33%;
-    color: black;
+    color: whitesmoke;
     
 
 }
 
 #f1 {
-    color: black;
+    color: whitesmoke;
 }
 
 #f4 {
 font-size: 14px;
-    color:black !important;
+    color: whitesmoke !important;
 }
 
+a {
+    color: white !important;
+}
 
+.dropdown-menu {
+    background-color: #f85b33d8;
+}
 
 hr {
     border: 0;
@@ -95,7 +101,7 @@ body {top:0 !important;}
 
 .contactUs,
 .request {
-color: black
+color: whitesmoke
 }
 
 .requestInstantQt {
@@ -104,13 +110,13 @@ color: black
 
 /* ContactUs*/
 .btn-info  {
-    background-color: #f9a012;
+    background-color: #f85a33;
 }
 
 .btn-info:hover {background-color: #f9a012;}
 
 .btn-info {
-    border: #f9a012;
+    border: #f85a33;
     margin-top: 5%;
 }
 
@@ -137,8 +143,10 @@ div.spanish.seHabla {
 }
 
 #navBar {
-    background-color: #f9a012 !important;
-    color: black !important;
+    background-color: #f85a33 !important;
+    color: whitesmoke !important;
+    
+    
 }
 
 .dropdown-item {
@@ -155,7 +163,7 @@ span.navbar-toggler-icon,
 }
 
 a.nav-link{
-color: black !important;
+color: whitesmoke !important;
 
 
 }
@@ -170,7 +178,7 @@ a:hover {
     color: whitesmoke !important;
 }
 .bottom {
-    background-color: #f9a0129d !important;
+    background-color: #f85b33e0 !important;
 }
 
 
