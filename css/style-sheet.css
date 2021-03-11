@@ -262,4 +262,12 @@ a:hover {
     margin-bottom:  0%;
 }
 
+#emailCU {
+    color: black !important;
+}
 
+/* Commercial Page Image */
+
+.commercial {
+    margin-left: 15%;
+}
