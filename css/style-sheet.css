@@ -13,13 +13,22 @@ a {
     
 }
 
-.phoneNumber {
+button.btn.btn-info.contactUs {
+    margin-top: 15%;
+}
+.phoneNumber,
+.phoneFax,
+.email {
     text-align: right ;
     color:black;
-    margin-top: .3%;
+    margin-top: 2%;
+    margin-bottom: 0% !important;
+    padding-bottom: 0% !important;
+    text-align: left;
     
     
 }
+
 
 .container {
     position: relative;
@@ -101,7 +110,8 @@ body {top:0 !important;}
 
 .contactUs,
 .request {
-color: whitesmoke
+color: whitesmoke;
+
 }
 
 .requestInstantQt {
@@ -130,10 +140,10 @@ color: whitesmoke
 
 div.spanish.seHabla {
     color: black;
-    font-size: large;
+    font-size: medium;
     font-weight: bolder;
-    margin-top: 2%;
-    margin-left: -15%;
+    margin-top: 1%;
+    
     overflow-x: auto;
 }
 
@@ -148,7 +158,9 @@ div.spanish.seHabla {
     
     
 }
-
+.email{
+    color: black !important;
+}
 .dropdown-item {
     color: black;
 
@@ -168,10 +180,7 @@ padding-left: 30px !important;
 padding-right: 30px !important;
 }
 
-.nav-link {
-padding-left: 30px;
-padding-right: 30px;
-}
+
 
 
 a.dropdown-item:hover {
@@ -180,8 +189,9 @@ a.dropdown-item:hover {
 
 
 a:hover {
-    color: whitesmoke !important;
+    color: #ffad2a !important;
 }
+
 .bottom {
     background-color: #f85b33 !important;
 }
