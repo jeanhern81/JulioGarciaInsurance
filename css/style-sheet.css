@@ -29,6 +29,9 @@ button.btn.btn-info.contactUs {
     
 }
 
+#goIns {
+    color: black !important;
+}
 
 .container {
     position: relative;
