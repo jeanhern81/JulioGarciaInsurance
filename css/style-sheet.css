@@ -110,10 +110,10 @@ color: whitesmoke
 
 /* ContactUs*/
 .btn-info  {
-    background-color: #f85a33;
+    background-color: #fc9d04;
 }
 
-.btn-info:hover {background-color: #f9a012;}
+.btn-info:hover {background-color: #f85a33;}
 
 .btn-info {
     border: #f85a33;
@@ -164,8 +164,13 @@ span.navbar-toggler-icon,
 
 a.nav-link{
 color: whitesmoke !important;
+padding-left: 30px !important;
+padding-right: 30px !important;
+}
 
-
+.nav-link {
+padding-left: 30px;
+padding-right: 30px;
 }
 
 
@@ -178,7 +183,7 @@ a:hover {
     color: whitesmoke !important;
 }
 .bottom {
-    background-color: #f85b33e0 !important;
+    background-color: #f85b33 !important;
 }
 
 
