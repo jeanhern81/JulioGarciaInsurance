@@ -3,10 +3,6 @@ body {
     clear: all;
 }
 
-a {
-    color: rgb(8, 8, 8);
-}
-
 #requestQuote {
     float: right;
     margin-top: 5%;
@@ -28,6 +24,8 @@ button.btn.btn-info.contactUs {
     
     
 }
+
+
 
 #goIns {
     color: black !important;
@@ -84,6 +82,7 @@ button.btn.btn-info.contactUs {
 font-size: 14px;
     color: whitesmoke !important;
 }
+
 
 a {
     color: white !important;
@@ -178,7 +177,7 @@ span.navbar-toggler-icon,
 }
 
 a.nav-link{
-color: whitesmoke !important;
+    color: whitesmoke !important;
 padding-left: 30px !important;
 padding-right: 30px !important;
 }
