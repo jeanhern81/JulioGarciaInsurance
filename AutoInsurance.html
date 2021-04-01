@@ -32,78 +32,11 @@
 
 <body>
     <!--Req quote button and phone info-->    
-    <div class="alert alert-light" role="alert" >
 
-        <!--Logo row to the right of the site-->
-        <div class="row">
-            <div class="col-md- "><a class="navbar-brand" href="/index.html" >
-                <img src="images/Logo/NewLogo.png" alt='julio garcia insurance logo' class="d-flex justify-content-center" width="100%" id='indexlogo'></a></div>
-        
-        <!--Req Qt Button to the left and with go beneath logo when in responsive mode-->
-        
-
-        <p class="phoneNumber col-sm" >Houston: <i class="fas fa-phone-alt"><a href="tel:8326455100" class="text-dark"> (832) 645-5100</a> </i></p>
-        
-        <p class="phoneNumber  col-sm" >Lake Jackson: <i class="fas fa-phone-alt "> <a href="tel:9792825500" class="text-dark">(979) 282-5500</a> </i></p>
-        <p class="phoneNumber  col-sm" >Rio Grande Valley: <i class="fas fa-phone-alt"><a href="tel:9565194663" class="text-dark"> (956) 519-4663</a> </i></p> 
-        <p class="phoneNumber  col-sm" >Austin: <i class="fas fa-phone-alt"><a href="tel:5125780060" class="text-dark"> (512) 578-0060</a> </i></p>
-            <p class="phoneFax  col-sm" >Fax: &nbsp; &nbsp; &nbsp;<i class="fas fa-fax"> &nbsp; (979) 393-0038</i></p>  
-            <p class="email col-sm">Email: <i class="fas fa-envelope-open-text"></i> <a href="mailto:docs@jgiatx.com" class='email'>docs@jgiatx.com</a></p> 
-            
-
-
-            <div class="spanish seHabla  ">                
-                <p class='col-sm' ><h3>Se Habla Español</h3></p>
-            </div>
-            
-            <div class="col-lg-1"><button type="button" class="btn btn-info contactUs" id='contactUs' data-toggle="modal" data-target=".bd-example-modal-lg">
-                Contact Us!
-            </button>
-            </div> 
-            
-        </div>
-</div>
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."alert.html"); ?>
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light" id='navBar'>
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-
-                
-            <li class="nav-item active">
-                <a class="nav-link" href="/index.html">Home</i> <span class="sr-only"></span></a>
-            </li>
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Personal Insurance
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="AutoInsurance.html">Auto Insurance</a>
-                <a class="dropdown-item" href="HomeInsurance.html">Home Insurance</a>
-                <a class="dropdown-item" href="LifeInsurance.html">Life Insurance</a>
-                </di>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="CommercialInsurance.html">Commercial Insurance</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="PetInsurance.html">Pet Insurance</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="CompaniesWeRepresent.html">Companies We Represent</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="AboutUs.html">About Us</a>
-            </li>
-            </ul>
-        </div>
-    </nav>
-
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."headerNav.html"); ?>
 
 
 <!--Jumbotron image-->
@@ -163,7 +96,7 @@
     <!--Auto Quote Request-->
     <div class="container-fluid d-flex justify-content-center">
 
-        <button type="button" class="btn btn-info" id='request'><a href="InvolveForms/AutoQT_Req.html">Auto Request</a></button>
+        <button type="button" class="btn btn-info" id='request'><a href="AutoQT_Req.html">Auto Request</a></button>
     </div>
 
     <br>
@@ -238,36 +171,8 @@
 <!--Footer-->
 
 <!--Footer-->
-<footer class='footer'>
-    <nav class="navbar bottom navbar-light bg-light size-small d-flex justify-content-center" >
-        <div class="f1">
-            <br>
-            <h6>Quick Links</h6>
-            <li><a href="InvolveForms/AutoQT_Req.html">Auto Quote Request</a></li>
-            <li><a href="InvolveForms/HomeQT_Req.html">Home Quote Request</a></li>
-            <li><a href="InvolveForms/CommercialQT_Req.html">Commercial Insurance Request</a></li>
-        </div>
-        <div class="f2">
-            <br>
-            <p><a href="Contact.html">Our Staff</a></p>
-            <p><a href="PrivacyPolicy.html">Privacy Policy</a></p>
-        </div>
-        <br>
-    <div class="f3">
-        <p>Translate this page:</p>
-<!-- GTranslate: https://gtranslate.io/ -->
-    <div id="google_translate_element"></div>
+<?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/php/"; include($IPATH."footer.html"); ?>
 
-    </div>
-
-    <div class="text-center">
-        <p class=""></p><i class="far fa-copyright " id="f4"> Julio Garcia Insurance  </i> </p>
-        <p class="" id="f4"> All content on this website is owned by Julio Garcia and our licensors. Do not use without our consent.</p>
-        <p class="" id="f4">Website created by <a href='https://thewebdevstudio.com/'>The Web Dev Studio</a>. All rights reserved.</p>
-    </div>
-        <br>
-    </nav>
-</footer>
 
 
 
