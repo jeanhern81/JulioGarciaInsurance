@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!--jQuery-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script> 
 
@@ -21,61 +21,84 @@
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <!--StyleSheet-->
-    
-    <link rel="stylesheet" href="/css/style-sheet.css">
+    <link rel="stylesheet" href="css/style-sheet.css">
+    <link rel="stylesheet" href="css/addlFooter.css">
 
-    <title>JGI - Home</title>
-    <link rel='icon' type='image/jpg' href="/images/Logo/FaviconLogo.jpg">
+
+
+    <title>JGI - Renters Insurance</title>
+    <link rel='icon' type='image/jpg' href="images/Logo/FaviconLogo.jpg">
 </head>
-
 <body>
-    <!--Req quote button and phone info-->    
-        <!--Logo row to the right of the site-->
-
-
-    <!--Navbar-->
-    <nav>
-        <div id="menu">
-    </nav>
-
-<br><br>
-
-
-
-<!--Body-->
-
-    <!--Auto Quote Request-->
-<div class="container-md">
-
+        <!--Alert with phone numbers and Navbar-->
+        <nav>
+            <div id="menu">
+        </nav>
     
-<h2 class='autoReq'></h2>
-
     
-<form>
-    <div class="involveme_embed" data-embed="thewebdevstudio/design-assets-subscription-15d9"></div>
-    <script src="https://app.involve.me/embed"></script>
-<div class='btAutoForm'>
-        <div class="d-grid gap-2 d-md-block">
-        <button class="btn btn-info" id='request' type="button"><a href="/HomeInsurance.html">Back</a></button>
-</div>
-</div>
-<br><hr><br>
+    
+    <!--Jumbotron image-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="images/SitePics/ApartmentBanner.jpg" class="d-block w-100 " alt="family sitting on the floor with moving boxes">
+            <div class="carousel-caption d-none d-md-block">
+                <h2></h2>
+                <p></p>
+            </div>
+            </div>
         </div>
-        
-</form>
+    </div>
+<!--Body-->
+<br>
 
-<div class='container-fluid'>
-    <div class="text-center">
+<div class="siteHeading"><p><h3>Renters Insurance</h3> </p></div>
+<br>
+<div class="container-fluid">
+    <div class="card border-light mb-3" style="max-width:;">
+        <div class="row no-gutters">
+            <div class="col-md-4 d-flex justify-content-center">
+            <img src="images/SitePics/ApartmentCouple.png"  class="card-img w-auto" alt="...">
+            </div>
+            <div class="col-md-8">
+            <div class="card-body">
+                <h4 class="card-title">Renters Insurance</h4>
+                <p class="card-text">Renters have a unique set of insurance needs. What happens if there's a fire and your couch gets damaged? You may not be able to replace it, but with the right coverage you’ll be reimbursed for its current value. What happens if your house guest slips and suffers a back injury? Insurance can cover their medical expenses and any resulting legal action.</p>
+                
+                <br>
+                <div><h6 class="rentersIns">Personal Property</h6></div>
+                <ul>Provides coverage for household items in the event of fire, theft or other covered loss.</ul>
+                
+                <br>
+                <div><h6 class="rentersIns">Personal Liability Protection</h6></div>
+                <ul>Pays for bodily injury or property damage caused to others as a result of a covered incident.</ul>
+                
+                <br>
+                <div><h6 class="rentersIns">Medical Protection</h6> </div>                
+                <div><ul>Pays medical expenses for guests injured on your rented property.</ul></div>
+                
+                <br>
+                <div><h6 class="rentersIns">Liability Protection</h6></div>                
+                <ul>Any liability lawsuit that may be brought against you.</ul>
 
-        <p>Please Note that coverage cannot be bound via quote request form.</p>
+
+                </p>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div  class="container-fluid d-flex justify-content-center">
+        <button type="button" class="btn btn-info" id='request'><a href="RentersQT_Req.html">Renters Request</a></button>
     </div>
     
-</div>
 
+<br>
 
-
-
-</form>
 
 <!--Quote Request Form on top right corner-->
 <!-- Modal -->
@@ -112,6 +135,7 @@
 
 
 
+
 <!--Footer-->
 <footer>
     <div id='footer'></div>
@@ -120,8 +144,9 @@
 
 
 
+
 <!--my javascript code-->
-<link rel="javascript" href="Public/js/script.js" />
+<link rel="javascript" href="js/script.js" />
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -132,6 +157,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script> 
     $(function(){
@@ -143,6 +169,9 @@
     $(function(){
     $("#footer").load("assets/components/footer.html"); 
     });
+
+
 </script>
+
 </body>
 </html>
