@@ -150,11 +150,9 @@ div.spanish.seHabla {
     overflow-x: auto;
 }
 
-
 .alert {
     margin-bottom: -.5%;
 }
-
 #navBar {
     background-color: #f85a33 !important;
     color: whitesmoke !important;
@@ -306,3 +304,4 @@ ol>li:before {
     text-align:right;
     content:counter(item) ".";
 }
+
