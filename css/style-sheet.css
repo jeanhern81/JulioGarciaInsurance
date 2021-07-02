@@ -1,6 +1,7 @@
 body {
     font-family: 'Lora', serif;
     clear: all;
+    overflow-x: hidden;
 }
 
 a {
@@ -86,7 +87,7 @@ font-size: 14px;
 }
 
 a {
-    color: white !important;
+    color: white;
 }
 
 .dropdown-menu {
@@ -268,8 +269,24 @@ a:hover {
 
 /* Commercial Page Image */
 
+
 .commercial {
-    margin-left: 15%;
+    float:left;
+    text-align: center;
+    margin-right: 45px;
+
+}
+
+.commercial-body {
+    align-items: center;
+}
+
+
+
+/**/
+.commercial-body-text {
+    margin: 50px;
+    padding: 15px;
 }
 
 .condo {
@@ -305,3 +322,8 @@ ol>li:before {
     content:counter(item) ".";
 }
 
+/* Contact Us Page */
+
+.phoneNumbersCU {
+    color: black;
+}
