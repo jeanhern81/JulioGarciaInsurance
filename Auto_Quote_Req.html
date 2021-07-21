@@ -36,7 +36,7 @@
 
     <!--Auto Quote Request-->
 <div class="container-md">
-
+<br>
 <h2 class='autoReq'>Auto Request</h2>
 <br>
     
@@ -44,27 +44,31 @@
 
 
 
-<form>
-    <p>Primary Driver</p>
+<form action="https://formsubmit.co/jeanette@thewebdevstudio.com" method="POST">
+    <input type="hidden" name="_next" value="https://jgarciains.com/ThankYou.html">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New Auto Quote Request!">
+
+    <h5>Primary Driver</h5>
     <div class="form-row">
         <div class="form-group col-md-6">
-        <label for="name">Name</label>
-        <input type="name" class="form-control" id="name">
+        <label for="name">First Name</label>
+        <input type="text" class="form-control" name='First_Name' id="name">
     </div>
     <div class="form-group col-md-6">
         <label for="lastName">Last Name</label>
-        <input type="lastName" class="form-control" id="lastName">
+        <input type="text" class="form-control" name='Last_Name' id="lastName">
     </div>
     </div>
 
     <div class="form-row">
         <div class="form-group col-md-6">
         <label for="email">Email</label>
-        <input type="email" class="form-control" id="email">
+        <input type="email" class="form-control" name='Email' id="email">
     </div>
     <div class="form-group col-md-6">
         <label for="phoneNumber">Phone Number</label>
-        <input type="phoneNumber" class="form-control" id="phoneNumber">
+        <input type="text" class="form-control" name='Phone_Number' id="phoneNumber">
     </div>
     </div>
 
