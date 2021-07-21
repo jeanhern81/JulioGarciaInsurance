@@ -327,3 +327,11 @@ ol>li:before {
 .phoneNumbersCU {
     color: black;
 }
+
+/* Thank You */
+.jumboThankYou {
+    background-color: transparent;
+}
+.display-4, .lead {
+    text-align: center;
+}
