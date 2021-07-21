@@ -335,3 +335,7 @@ ol>li:before {
 .display-4, .lead {
     text-align: center;
 }
+
+.line {
+    margin-top: 5%;
+}
