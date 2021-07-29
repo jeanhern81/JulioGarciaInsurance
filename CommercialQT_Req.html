@@ -42,26 +42,227 @@
 <div class="container-md">
 
 <h2 class='autoReq'></h2>
-<form>
+
+<form action="https://formsubmit.co/jeanette@thewebdevstudio.com" method="POST">
+    <input type="hidden" name="_next" value="https://jgarciains.com/ThankYou.html">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New Builder's Risk Quote Request!">
+    <p></p>
+    <div class="form-group col-md-6">
+        <label for="insType"><h5>Type of Insurance</h5></label>
+        <p>example: General Liability, Contractors Insurance, Property/Building and/or Content, Commercial Auto, Workers Comp, Other (if other, please specify)</p>
+        <input type="insType" class="form-control" name="Ins-Type" id="insType">
+    </div>
+    <div class="row">
+
+    </div>
+    <br><hr><br>
+    <p><h5>General Information</h5></p>
+    <div class="form-row">
+        
+        <div class="form-group col-md-6">
+        <label for="firstName">First Name</label>
+        <input type="firstName" class="form-control" name="First-Name" id="firstName">
+    </div>
+    <div class="form-group col-md-6">
+        <label for="lastName">Last Name</label>
+        <input type="lastName" class="form-control" name="Last-Name" id="lastName">
+    </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label for="dba">Doing Business As</label>
+            <input type="text" class="form-control" name="DBA" id="dba">
+        </div>
+        <div class="form-group col-md-4">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" name="Email" id="email">
+    </div>
+    <div class="form-group col-md-4">
+        <label for="phoneNumber">Phone Number</label>
+        <input type="phoneNumber" class="form-control" name="Phone-Number" id="phoneNumber">
+    </div>
+    </div>
+    <div class="form-group">
+        <label for="inputAddress">Address</label>
+        <input type="text" class="form-control" id="inputAddress" name="Mailing-Address" placeholder="1234 Main St">
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" name="City" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+        <label for="inputState">State</label>
+        <input id="inputState" name="State" class="form-control">
+
+        </>
+    </div>
+    <div class="form-group col-md-2">
+        <label for="inputZip">Zip</label>
+        <input type="text" class="form-control" name="Zip" id="inputZip">
+    </div>
+    </div>                
+
+    <br>
+    <hr>
+    <br>
+    <H5>Business Information</H5>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+        <label for="ftEmp"># of Full-Time Employees</label>
+        <input type="text" class="form-control" name="Full-Time-Employees" id="ftEmp">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="ptEmp"># of Part-Time Employees</label>
+        <input type="text" class="form-control" name="Part-Time-Employees" id="ptEmp">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="years">How may years in business?</label>
+        <input type="text" class="form-control" name="Years-in-Business" id="years">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="loc">How many business locations?</label>
+        <input type="text" class="form-control" name="Number-of-Locations" id="loc">
+    </div>
+
+    </div>
+<br>
+<hr>
+<br>
+    <h5>Current Coverage</h5>
+    
+    <div class="form-row">
+    <div class="form-group col-md-6">
+    <label for="carrierName">Carrier Name</label>
+    <input type="carrierName" class="form-control" name="Carrier-Name" id="carrierName">
+</div>
+<div class="form-group col-md-6">
+    <label for="policyNumber">Policy Number</label>
+    <input type="policyNumber" class="form-control" name="Policy-Number" id="policyNumber">
+</div>
+</div>
+<br>
+
+    <div class="form-group col-md-12">
+        <label for="insType"><h5>Current Type of Coverage</h5></label>
+        <p>example: General Liability, Contractors Insurance, Property/Building and/or Content, Commercial Auto, Workers Comp, Other (if other, please specify)</p>
+        <input type="insType" class="form-control" name="Ins-Type" id="insType">
+    </div>
+
+<br>
+<hr>
+<br>
+<h5>Property/Premises Information</h5>
+<div class="form-group">
+    <label for="propertyAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" name="Property-Location" placeholder="1234 Main St">
+</div>
+<div class="form-row">
+<div class="form-group col-md-6">
+    <label for="inputCity">City</label>
+    <input type="text" class="form-control" name="Property-Location" id="inputCity">
+</div>
+<div class="form-group col-md-4">
+    <label for="inputState">State</label>
+    <input id="inputState" name="Property-State" class="form-control">
+
+</div>
+<div class="form-group col-md-2">
+    <label for="inputZip">Zip</label>
+    <input type="text" class="form-control" name="Property-Zip" id="inputZip">
+</div>
+</div>  
+<div class="form-row">
+    <div class="form-group col-md-4">
+    <label for="year">Year Built</label>
+    <input type="text" class="form-control" name="Year-Built" id="year">
+</div>
+<div class="form-group col-md-4">
+    <label for="occupired">% Occupied</label>
+    <input type="text" class="form-control" name="%-Occupied" id="occupied">
+</div>
+<div class="form-group col-md-4">
+    <label for="stories">Stories</label>
+    <input type="text" class="form-control" name="Stories" id="stories">
+</div>
+<div class="form-group col-md-4">
+    <label for="sqFootage">Sq. Footage</label>
+    <input type="text" class="form-control" nmae="Sq-Footage" id="sqFootage">
+</div>
+<div class="form-group col-md-4">
+    <label for="bldValue">Building Value</label>
+    <input type="text" class="form-control" name="Building-Value" id="bldValue">
+</div>
+<div class="form-group col-md-4">
+    <label for="content">Content</label>
+    <input type="text" class="form-control" name="Content-Value" id="content">
+</div>
 
 
-    <div data-aidaform-widget="form-2019-12" data-url="https://jeanhern81.aidaform.com/commercial-insurance" data-width="100%" data-height="500px" data-do-resize></div><script>(function(){var r,d=document,gt=d.getElementById,cr=d.createElement,tg=d.getElementsByTagName,id="aidaform-embed";if(!gt.call(d,id)){r=cr.call(d,"script");r.id=id;r.src="https://embed.aidaform.com/embed.js";(d.head || tg.call(d,"head")[0]).appendChild(r);}})()</script>
 
+    <div class="form-group col-md-4">
+    <label for="sprinklers">Sprinklers?</label>
+    <input type="text" class="form-control" name="Spriklers" id="sprinklers">
+</div>
+<div class="form-group col-md-4">
+    <label for="burglarAlarm">Burlar Alarm?</label>
+    <input type="text" class="form-control" name="Burglar-Alarm" id="burglarAlarm">
+</div>
+<div class="form-group col-md-4">
+    <label for="ownerOccupied">Owner Occupied?</label>
+    <input type="text" class="form-control" name="Owner-Occupied" id="ownerOccupied">
+</div>
+</div>
+<br>
 
+<br><hr><br>
+<h5>Insurance Information</h5>
 
+<div class="form-row">
+    <div class="form-group col-md-3">
+    <label for="ppAmount">Business Personal Property Amount </label>
+    <input type="text" class="form-control" name="Bsuiness-Personal-Property-Amount" id="ppAmount">
+</div>
+<div class="form-group col-md-3">
+    <label for="grossSales">Annual Gross Sales (Before Taxes)</label>
+    <input type="text" class="form-control" name="Annual-Gross-Sales" id="grossSales">
+</div>
+<div class="form-group col-md-3">
+    <label for="stories">Payroll</label>
+    <input type="text" class="form-control" name="Payroll" id="payroll">
+</div>
+<div class="form-group col-md-3">
+    <label for="liabReq">Liablity Limites Requested</label>
+    <input type="text" class="form-control" name="Liability-Limit-Request" id="liabReq">
+</div>
 
+</div>
+
+<div class="container-sm">
+    <div class="form-group">
+        
+    <label for="exampleFormControlTextarea1">Additional Information (Claims)</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" name="Additional-Info" rows="2"></textarea>
+    </div>
+</div>
+<br><hr><br>
 
 <div class='btAutoForm'>
         <div class="d-grid gap-2 d-md-block">
-        <button class="btn btn-info" id='request' type="button"><a href="/CommercialInsurance.html">Back</a></button>
-        
+        <button class="btn btn-info" type="button"><a href="CommercialInsurance.html">Back</a></button>
+        <button class="btn btn-info" type="submit">Submit</button>
+    </div>
 </div>
-</div>
-<br><hr><br>
+
 </div>
         
 
 </form>
+        
+
+<br><br><br>
 
 <div class='container-fluid'>
     <div class="text-center">
@@ -69,6 +270,7 @@
     </div>
     
 </div>
+<br>
 
 
 

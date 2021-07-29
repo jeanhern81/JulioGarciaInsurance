@@ -96,276 +96,199 @@
 <h2 class='autoReq'>Commercial Insurance Request</h2>
 <br>
 
-<form>
+<form action="https://formsubmit.co/jeanette@thewebdevstudio.com" method="POST">
+    <input type="hidden" name="_next" value="https://jgarciains.com/ThankYou.html">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New Builder's Risk Quote Request!">
     <p></p>
+    <div class="form-group col-md-6">
+        <label for="insType"><h5>Type of Insurance</h5></label>
+        <p>example: General Liability, Contractors Insurance, Property/Building and/or Content, Commercial Auto, Workers Comp, Other (if other, please specify)</p>
+        <input type="insType" class="form-control" name="Ins-Type" id="insType">
+    </div>
     <div class="row">
-        <div class="form-group col-md-4">
-            <label for="inputState">Type of Insurance</label>
-            <select id="inputState" class="form-control">
-                <option selected>Select...</option>
-                <option>General Liability</option>
-                <option>Contractors Insurance</option>
-                <option>Propery/Building and/or Conent</option>
-                <option>Commercial Auto</option>
-                <option>Workers' Compensation</option>
-                <option>Other</option>
-            </select>
-        </div>
+
     </div>
     <br><hr><br>
-    <p>General Information</p>
+    <p><h5>General Information</h5></p>
     <div class="form-row">
         
         <div class="form-group col-md-6">
-        <label for="name">Name</label>
-        <input type="name" class="form-control" id="name">
+        <label for="firstName">First Name</label>
+        <input type="firstName" class="form-control" name="First-Name" id="firstName">
     </div>
     <div class="form-group col-md-6">
         <label for="lastName">Last Name</label>
-        <input type="lastName" class="form-control" id="lastName">
+        <input type="lastName" class="form-control" name="Last-Name" id="lastName">
     </div>
     </div>
 
     <div class="form-row">
         <div class="form-group col-md-4">
             <label for="dba">Doing Business As</label>
-            <input type="text" class="form-control" id="dba">
+            <input type="text" class="form-control" name="DBA" id="dba">
         </div>
         <div class="form-group col-md-4">
         <label for="email">Email</label>
-        <input type="email" class="form-control" id="email">
+        <input type="email" class="form-control" name="Email" id="email">
     </div>
     <div class="form-group col-md-4">
         <label for="phoneNumber">Phone Number</label>
-        <input type="phoneNumber" class="form-control" id="phoneNumber">
+        <input type="phoneNumber" class="form-control" name="Phone-Number" id="phoneNumber">
     </div>
     </div>
     <div class="form-group">
         <label for="inputAddress">Address</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        <input type="text" class="form-control" id="inputAddress" name="Mailing-Address" placeholder="1234 Main St">
     </div>
     <div class="form-row">
     <div class="form-group col-md-6">
         <label for="inputCity">City</label>
-        <input type="text" class="form-control" id="inputCity">
+        <input type="text" class="form-control" name="City" id="inputCity">
     </div>
     <div class="form-group col-md-4">
         <label for="inputState">State</label>
-        <select id="inputState" class="form-control">
-            <option selected>Choose...</option>
-            <option>TX</option>
-        </select>
+        <input id="inputState" name="State" class="form-control">
+
+        </>
     </div>
     <div class="form-group col-md-2">
         <label for="inputZip">Zip</label>
-        <input type="text" class="form-control" id="inputZip">
+        <input type="text" class="form-control" name="Zip" id="inputZip">
     </div>
     </div>                
 
     <br>
     <hr>
     <br>
-    <p>Business Information</p>
+    <H5>Business Information</H5>
     <div class="form-row">
         <div class="form-group col-md-3">
         <label for="ftEmp"># of Full-Time Employees</label>
-        <input type="text" class="form-control" id="ftEmp">
+        <input type="text" class="form-control" name="Full-Time-Employees" id="ftEmp">
     </div>
     <div class="form-group col-md-3">
         <label for="ptEmp"># of Part-Time Employees</label>
-        <input type="text" class="form-control" id="ptEmp">
+        <input type="text" class="form-control" name="Part-Time-Employees" id="ptEmp">
     </div>
     <div class="form-group col-md-3">
         <label for="years">How may years in business?</label>
-        <input type="text" class="form-control" id="years">
+        <input type="text" class="form-control" name="Years-in-Business" id="years">
     </div>
     <div class="form-group col-md-3">
         <label for="loc">How many business locations?</label>
-        <input type="text" class="form-control" id="loc">
+        <input type="text" class="form-control" name="Number-of-Locations" id="loc">
     </div>
 
     </div>
 <br>
 <hr>
 <br>
-    <p>Current Coverage</p>
-    <div class="form-group">
-        <div class="form-check">
-                <label for="insured">Are you insured?</label>
-    <div class="form-check form-check-inline">
-    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-    <label class="form-check-label" for="inlineCheckbox2">Yes</label>
-    </div>
-    <div class="form-check form-check-inline">
-    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-    <label class="form-check-label" for="inlineCheckbox2">No</label>
-    </div>
-
-    </div>
-    </div>
-
+    <h5>Current Coverage</h5>
     
     <div class="form-row">
     <div class="form-group col-md-6">
     <label for="carrierName">Carrier Name</label>
-    <input type="carrierName" class="form-control" id="carrierName">
+    <input type="carrierName" class="form-control" name="Carrier-Name" id="carrierName">
 </div>
 <div class="form-group col-md-6">
     <label for="policyNumber">Policy Number</label>
-    <input type="policyNumber" class="form-control" id="policyNumber">
+    <input type="policyNumber" class="form-control" name="Policy-Number" id="policyNumber">
 </div>
 </div>
 <br>
-<p>Current Type of Coverage (check all that apply)</p>
-<div class="row">
-    <div class="col-sm-6">
-    
-<label class="radio-inline">
-    <input class="quoteradio" type="radio" value="gLiab" check="checked"> General Liability</label>
-<br>
-<label class="radio-inline">
-    <input class="quoteradio" type="radio" value="commercialAuto" check="checked"> Commercial Auto</label>
-<br>
-    <label class="radio-inline">
-    <input class="quoteradio" type="radio" value="contractors" check="checked"> Contractors</label>
-<br>
-    <label class="radio-inline">
-        <input class="quoteradio" type="radio" value="split" check="checked"> Property/Building/Content</label>
-<br>
-</div>
 
-<br>
-<div class="col-sm-6">
-    
-<label class="radio-inline">
-    <input class="quoteradio" type="radio" value="wCOmp" check="checked"> Workers' Comp</label>
-<br>
-<label class="radio-inline">
-    <input class="quoteradio" type="radio" value="profLiab" check="checked"> Professional Liablity</label>
-<br>
-    <label class="radio-inline">
-    <input class="quoteradio" type="radio" value="bond" check="checked"> Bond</label>
-<br>
-    
-<label class="radio-inline">
-    <input class="quoteradio" type="radio" value="other" check="checked"> Other</label>
-    <input type="other" class="form-control" id="other" aria-describedby="other">
-</div>
+    <div class="form-group col-md-12">
+        <label for="insType"><h5>Current Type of Coverage</h5></label>
+        <p>example: General Liability, Contractors Insurance, Property/Building and/or Content, Commercial Auto, Workers Comp, Other (if other, please specify)</p>
+        <input type="insType" class="form-control" name="Ins-Type" id="insType">
+    </div>
 
-</div>
 <br>
 <hr>
 <br>
-<p>Property/Premises Information</p>
+<h5>Property/Premises Information</h5>
 <div class="form-group">
-    <label for="inputAddress">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    <label for="propertyAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" name="Property-Location" placeholder="1234 Main St">
 </div>
 <div class="form-row">
 <div class="form-group col-md-6">
     <label for="inputCity">City</label>
-    <input type="text" class="form-control" id="inputCity">
+    <input type="text" class="form-control" name="Property-Location" id="inputCity">
 </div>
 <div class="form-group col-md-4">
     <label for="inputState">State</label>
-    <select id="inputState" class="form-control">
-        <option selected>Choose...</option>
-        <option>TX</option>
-    </select>
+    <input id="inputState" name="Property-State" class="form-control">
+
 </div>
 <div class="form-group col-md-2">
     <label for="inputZip">Zip</label>
-    <input type="text" class="form-control" id="inputZip">
+    <input type="text" class="form-control" name="Property-Zip" id="inputZip">
 </div>
 </div>  
 <div class="form-row">
-    <div class="form-group col-md-2">
+    <div class="form-group col-md-4">
     <label for="year">Year Built</label>
-    <input type="text" class="form-control" id="year">
+    <input type="text" class="form-control" name="Year-Built" id="year">
 </div>
-<div class="form-group col-md-2">
+<div class="form-group col-md-4">
     <label for="occupired">% Occupied</label>
-    <input type="text" class="form-control" id="occupied">
+    <input type="text" class="form-control" name="%-Occupied" id="occupied">
 </div>
-<div class="form-group col-md-2">
+<div class="form-group col-md-4">
     <label for="stories">Stories</label>
-    <input type="text" class="form-control" id="stories">
+    <input type="text" class="form-control" name="Stories" id="stories">
 </div>
-<div class="form-group col-md-2">
+<div class="form-group col-md-4">
     <label for="sqFootage">Sq. Footage</label>
-    <input type="text" class="form-control" id="sqFootage">
+    <input type="text" class="form-control" nmae="Sq-Footage" id="sqFootage">
 </div>
-<div class="form-group col-md-2">
+<div class="form-group col-md-4">
     <label for="bldValue">Building Value</label>
-    <input type="text" class="form-control" id="bldValue">
+    <input type="text" class="form-control" name="Building-Value" id="bldValue">
 </div>
-<div class="form-group col-md-2">
+<div class="form-group col-md-4">
     <label for="content">Content</label>
-    <input type="text" class="form-control" id="content">
-</div>
+    <input type="text" class="form-control" name="Content-Value" id="content">
 </div>
 
+
+
+    <div class="form-group col-md-4">
+    <label for="sprinklers">Sprinklers?</label>
+    <input type="text" class="form-control" name="Spriklers" id="sprinklers">
+</div>
+<div class="form-group col-md-4">
+    <label for="burglarAlarm">Burlar Alarm?</label>
+    <input type="text" class="form-control" name="Burglar-Alarm" id="burglarAlarm">
+</div>
+<div class="form-group col-md-4">
+    <label for="ownerOccupied">Owner Occupied?</label>
+    <input type="text" class="form-control" name="Owner-Occupied" id="ownerOccupied">
+</div>
+</div>
 <br>
-<div class="row">
-    <div class="form-group">
-    <div class="form-check col-">
-            <label for="insured">Spriklers?</label>
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-<label class="form-check-label" for="inlineCheckbox2">Yes</label>
-</div>
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-<label class="form-check-label" for="inlineCheckbox2">No</label>
-</div>
 
-</div>
-</div>
-<div class="form-group">
-    <div class="form-check col-">
-            <label for="insured">Burglar Alarm?</label>
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-<label class="form-check-label" for="inlineCheckbox2">Yes</label>
-</div>
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-<label class="form-check-label" for="inlineCheckbox2">No</label>
-</div>
-</div>
-</div>
-<div class="form-group">
-    <div class="form-check col-">
-            <label for="insured">Occupancy Status?</label>
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-<label class="form-check-label" for="inlineCheckbox2">Ownder</label>
-</div>
-<div class="form-check form-check-inline">
-<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-<label class="form-check-label" for="inlineCheckbox2">Tenant</label>
-</div>
-</div>
-</div>
-</div>
 <br><hr><br>
-<p>Insurance Information</p>
+<h5>Insurance Information</h5>
+
 <div class="form-row">
     <div class="form-group col-md-3">
     <label for="ppAmount">Business Personal Property Amount </label>
-    <input type="text" class="form-control" id="ppAmount">
+    <input type="text" class="form-control" name="Bsuiness-Personal-Property-Amount" id="ppAmount">
 </div>
 <div class="form-group col-md-3">
     <label for="grossSales">Annual Gross Sales (Before Taxes)</label>
-    <input type="text" class="form-control" id="grossSales">
+    <input type="text" class="form-control" name="Annual-Gross-Sales" id="grossSales">
 </div>
 <div class="form-group col-md-3">
     <label for="stories">Payroll</label>
-    <input type="text" class="form-control" id="payroll">
+    <input type="text" class="form-control" name="Payroll" id="payroll">
 </div>
 <div class="form-group col-md-3">
     <label for="liabReq">Liablity Limites Requested</label>
-    <input type="text" class="form-control" id="liabReq">
+    <input type="text" class="form-control" name="Liability-Limit-Request" id="liabReq">
 </div>
 
 </div>
@@ -374,14 +297,14 @@
     <div class="form-group">
         
     <label for="exampleFormControlTextarea1">Additional Information (Claims)</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" name="Additional-Info" rows="2"></textarea>
     </div>
 </div>
 <br><hr><br>
 <div class='btAutoForm'>
         <div class="d-grid gap-2 d-md-block">
         <button class="btn btn-danger" type="button"><a href="CommercialInsurance.html">Back</a></button>
-        <button class="btn btn-info" type="button">Submit</button>
+        <button class="btn btn-info" type="submit">Submit</button>
     </div>
 </div>
 
