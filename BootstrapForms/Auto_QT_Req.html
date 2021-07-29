@@ -36,7 +36,7 @@
 
     <!--Auto Quote Request-->
 <div class="container-md">
-
+<br>
 <h2 class='autoReq'>Auto Request</h2>
 <br>
     
@@ -44,190 +44,187 @@
 
 
 
-<form>
-    <p>Primary Driver</p>
+<form action="https://formsubmit.co/jeanette@thewebdevstudio.com" method="POST">
+    <input type="hidden" name="_next" value="https://jgarciains.com/ThankYou.html">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New Auto Quote Request!">
+
+    <p><h5>Primary Driver</h5></p>
     <div class="form-row">
         <div class="form-group col-md-6">
-        <label for="name">Name</label>
-        <input type="name" class="form-control" id="name">
+        <label for="firstName">First Name</label>
+        <input type="firstName" class="form-control" name="First-Name" id="firstName" required>
     </div>
     <div class="form-group col-md-6">
         <label for="lastName">Last Name</label>
-        <input type="lastName" class="form-control" id="lastName">
+        <input type="lastName" class="form-control" name="Last-Name" id="lastName" required>
     </div>
     </div>
 
     <div class="form-row">
         <div class="form-group col-md-6">
         <label for="email">Email</label>
-        <input type="email" class="form-control" id="email">
+        <input type="email" class="form-control" name="Email" id="email" required>
     </div>
     <div class="form-group col-md-6">
         <label for="phoneNumber">Phone Number</label>
-        <input type="phoneNumber" class="form-control" id="phoneNumber">
+        <input type="phoneNumber" class="form-control" name="Phone" id="phoneNumber" required>
     </div>
     </div>
 
     <div class="form-row">
         <div class="form-group col-md-3">
         <label for="dob">Date of Birth</label>
-        <input type="dob" class="form-control" id="dob">
+        <input type="dob" class="form-control" name="DOB" id="dob">
     </div>
         <div class="form-group col-md-3">
         <label for="socialSecurity">Social Security Number</label>
-        <input type="text" class="form-control" id="socialSecurity">
+        <input type="text" class="form-control" name="SSN" id="socialSecurity">
     </div>
     <div class="form-group col-md-3">
         <label for="dlNumber">Drivers License Number</label>
-        <input type="dlNumber" class="form-control" id="dlNumber">
+        <input type="dlNumber" class="form-control" name="DL" id="dlNumber">
     </div>
     <div class="form-group col-md-3">
         <label for="stateIssued">State Issued</label>
-        <input type="stateIssued" class="form-control" id="stateIssued">
+        <input type="stateIssued" class="form-control" name="State-Issued" id="stateIssued">
     </div>
 
     </div>
     <div class="form-group">
         <label for="inputAddress">Address</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        <input type="text" class="form-control" id="inputAddress" name="Address" placeholder="1234 Main St">
     </div>
     <div class="form-row">
     <div class="form-group col-md-6">
         <label for="inputCity">City</label>
-        <input type="text" class="form-control" id="inputCity">
+        <input type="text" class="form-control" name="City" id="inputCity">
     </div>
     <div class="form-group col-md-4">
         <label for="inputState">State</label>
-        <select id="inputState" class="form-control">
-            <option selected>Choose...</option>
-            <option>TX</option>
-        </select>
+        <input type="text" class="form-control" name="State" id="inputState">
+        
     </div>
     <div class="form-group col-md-2">
         <label for="inputZip">Zip</label>
-        <input type="text" class="form-control" id="inputZip">
+        <input type="text" class="form-control" name="Zip" id="inputZip">
     </div>
     </div>                
 
     <br>
     <hr>
     <br>
-    <p>Additional Drivers</p>
+    <p><h5>Additional Drivers</h5></p>
     <div class="form-row">
-        <div class="form-group col-md-3">
-        <label for="name">Name</label>
-        <input type="name" class="form-control" id="name">
-    </div>
-    <div class="form-group col-md-3">
-        <label for="lastName">Last Name</label>
-        <input type="lastName" class="form-control" id="lastName">
+        <div class="form-group col-md-6">
+        <label for="name">Full Name</label>
+        <input type="name" class="form-control" name="Addl-Driver-01" id="name">
     </div>
     <div class="form-group col-md-2">
         <label for="dob">Date of Birth</label>
-        <input type="text" class="form-control" id="dob">
+        <input type="text" class="form-control" name="DOB-01" id="dob">
     </div>
     <div class="form-group col-md-2">
         <label for="dlNumber">Drivers License</label>
-        <input type="text" class="form-control" id="dlNumber">
+        <input type="text" class="form-control" name="DL-01" id="dlNumber">
     </div>
     <div class="form-group col-md-2">
         <label for="stateIssued">State Issued</label>
-        <input type="text" class="form-control" id="stateIssued">
+        <input type="text" class="form-control" name="DL-State-01" id="stateIssued">
     </div>
     </div>
     <div class="form-row">
-        <div class="form-group col-md-3">
-        <label for="name">Name</label>
-        <input type="name" class="form-control" id="name">
+        <div class="form-group col-md-6">
+        <label for="name">Full Name</label>
+        <input type="name" class="form-control" name="Addl-Driver-02" id="name">
     </div>
-    <div class="form-group col-md-3">
-        <label for="lastName">Last Name</label>
-        <input type="lastName" class="form-control" id="lastName">
-    </div>
+
     <div class="form-group col-md-2">
         <label for="dob">Date of Birth</label>
-        <input type="text" class="form-control" id="dob">
+        <input type="text" class="form-control" name="DOB-02" id="dob">
     </div>
     <div class="form-group col-md-2">
         <label for="dlNumber">Drivers License</label>
-        <input type="text" class="form-control" id="dlNumber">
+        <input type="text" class="form-control" name="DL-02" id="dlNumber">
     </div>
     <div class="form-group col-md-2">
         <label for="stateIssued">State Issued</label>
-        <input type="text" class="form-control" id="stateIssued">
+        <input type="text" class="form-control" name="DL-State-02" id="stateIssued">
     </div>
     </div>
 
 <br>
 <hr>
 <br>
-    <p>Current Coverage</p>
-    <div class="form-group">
-        <div class="form-check">
-                <label for="insured">Are you insured?</label>
-    <div class="form-check form-check-inline">
-    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-    <label class="form-check-label" for="inlineCheckbox2">Yes</label>
-    </div>
-    <div class="form-check form-check-inline">
-    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-    <label class="form-check-label" for="inlineCheckbox2">No</label>
-    </div>
-
-    </div>
-    </div>
-
-    
-    <div class="form-row">
+<!--Current Policy-->
+    <p><h5>Current Coverage</h5></p>
+<div class="form-row">
     <div class="form-group col-md-6">
     <label for="carrierName">Carrier Name</label>
-    <input type="carrierName" class="form-control" id="carrierName">
+    <input type="carrierName" class="form-control" name="Carrier-Name" id="carrierName">
 </div>
 <div class="form-group col-md-6">
     <label for="policyNumber">Policy Number</label>
-    <input type="policyNumber" class="form-control" id="policyNumber">
+    <input type="policyNumber" class="form-control" name="Policy-Number" id="policyNumber">
+</div>
+<div class="form-row">
+    <div class="form-group col-md-2">
+    <label for="bodilyIL">Bodily Injury Liability</label>
+    <input type="text" class="form-control" name="Current-BIL" id="bodilyIL">
+</div>
+<div class="form-group col-md-2">
+    <label for="propDamage">Property Damage</label>
+    <input type="text" class="form-control" name="Current-PD" id="propDamage">
+</div>
+<div class="form-group col-md-3">
+    <label for="medPayment">Medical Payment (PIP)</label>
+    <input type="text" class="form-control" current="Current-Med/PIP" id="medPayment">
+</div>
+<div class="form-group col-md-3">
+    <label for="medPayment">Comprehensive Deductible</label>
+    <input type="text" class="form-control" name="Current-Comp-Ded" id="medPayment">
+</div>
+<div class="form-group col-md-2">
+    <label for="medPayment">Collision Deductible</label>
+    <input type="text" class="form-control" name="Current-Coll-Ded" id="medPayment">
 </div>
 </div>
+</div>
+
+<br>
+<!--Desired Coverage-->
+<p><h5>Desired Coverage</h5></p>
 <div class="form-row">
     <div class="form-group col-md-4">
     <label for="bodilyIL">Bodily Injury Liability</label>
-    <input type="text" class="form-control" id="bodilyIL">
+    <input type="text" class="form-control"name="BIL" id="bodilyIL">
 </div>
 <div class="form-group col-md-4">
     <label for="propDamage">Property Damage</label>
-    <input type="text" class="form-control" id="propDamage">
+    <input type="text" class="form-control" name="PD" id="propDamage">
 </div>
 <div class="form-group col-md-4">
     <label for="medPayment">Medical Payments (PIP)</label>
-    <input type="text" class="form-control" id="medPayment">
+    <input type="text" class="form-control" name="Med/PIP" id="medPayment">
 </div>
 </div>
 <div class="form-row">
-    <div class="form-group col-md-4">
-    <label for="uninMotoLiab">Uninsured Motorist Liability</label>
-    <input type="text" class="form-control" id="uninMotoLiab">
+    <div class="form-group col-md-6">
+    <label for="uninMotoLiab">Uninsured/Underinsured Bodily Injury</label>
+    <input type="text" class="form-control" name="UMBI/UIMBI" id="uninMotoLiab">
 </div>
-<div class="form-group col-md-4">
-    <label for="uninMotoDamange">Uninsured Motorist Damage</label>
-    <input type="text" class="form-control" id="uninMotoDamange">
+<div class="form-group col-md-6">
+    <label for="uninMotoDamange">Uninsured/Underinsured Motorist Property Damage</label>
+    <input type="text" class="form-control" name="UMPD/UIMPD" id="uninMotoDamange">
 </div>
-<div class="form-group col-md-4">
-    <label for="underMotoLiab">Underinsured Motorist Liablity</label>
-    <input type="text" class="form-control" id="underMotoLiab">
-</div>
-</div>
-<div class="form-row">
-    <div class="form-group col-md-4">
-    <label for="underMotoristProp">Underinsured Motorist Property</label>
-    <input type="text" class="form-control" id="underMotoristProp">
-</div>
-<div class="form-group col-md-4">
+
+<div class="form-group col-md-6">
     <label for="compDed">Comprehensive Deductible</label>
-    <input type="text" class="form-control" id="compDed">
+    <input type="text" class="form-control" name="Comp-Deductible" id="compDed">
 </div>
-<div class="form-group col-md-4">
+<div class="form-group col-md-6">
     <label for="collisionDed">Collision Deductible</label>
-    <input type="text" class="form-control" id="collisionDed">
+    <input type="text" class="form-control" name="Coll-Deductible" id="collisionDed">
 </div>
 </div>
 
@@ -236,50 +233,67 @@
 <br>
 <hr>
 <br>
-<p>Vehicle Information</p>
+<p><h5>Vehicle Information</h5></p>
 <div class="form-row">
     <div class="form-group col-md-1">
     <label for="year">Year</label>
-    <input type="year" class="form-control" id="year">
+    <input type="year" class="form-control" name="Vehicle-01-Year" id="year">
 </div>
 <div class="form-group col-md-3">
     <label for="make">Make</label>
-    <input type="make" class="form-control" id="make">
+    <input type="make" class="form-control" name="Vehicle-01-Make" id="make">
 </div>
 <div class="form-group col-md-3">
     <label for="model">Model</label>
-    <input type="model" class="form-control" id="model">
+    <input type="model" class="form-control" name="Vehicle-01-Model" id="model">
 </div>
 <div class="form-group col-md-5">
     <label for="vin">VIN Number</label>
-    <input type="text" class="form-control" id="vin">
+    <input type="text" class="form-control" name="Vehicle-01-VIN" id="vin">
 </div>
 </div>
 <div class="form-row">
     <div class="form-group col-md-1">
     <label for="year">Year</label>
-    <input type="year" class="form-control" id="year">
+    <input type="year" class="form-control" name="Vehicle-02-Year" id="year">
 </div>
 <div class="form-group col-md-3">
     <label for="make">Make</label>
-    <input type="make" class="form-control" id="make">
+    <input type="make" class="form-control" name="Vehicle-02-Make" id="make">
 </div>
 <div class="form-group col-md-3">
     <label for="model">Model</label>
-    <input type="model" class="form-control" id="model">
+    <input type="model" class="form-control" name="Vehicle-02-Model" id="model">
 </div>
 <div class="form-group col-md-5">
     <label for="vin">VIN Number</label>
-    <input type="text" class="form-control" id="vin">
+    <input type="text" class="form-control" name="Vehicle-02-VIN" id="vin">
 </div>
 </div>
-
+<div class="form-row">
+    <div class="form-group col-md-1">
+    <label for="year">Year</label>
+    <input type="year" class="form-control" name="Vehicle-03-Year" id="year">
+</div>
+<div class="form-group col-md-3">
+    <label for="make">Make</label>
+    <input type="make" class="form-control" name="Vehicle-03-Make" id="make">
+</div>
+<div class="form-group col-md-3">
+    <label for="model">Model</label>
+    <input type="model" class="form-control" name="Vehicle-03-Model" id="model">
+</div>
+<div class="form-group col-md-5">
+    <label for="vin">VIN Number</label>
+    <input type="text" class="form-control" name="Vehicle-03-VIN" id="vin">
+</div>
+</div>
 <br>
 <hr>
 <br>
 <div class="form-group">
     <label for="exampleFormControlTextarea1">Additional Information (tickets and/or accidents)</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" name="Additional-Info" rows="2"></textarea>
     </div>
 
     <br>
@@ -288,8 +302,8 @@
 <br>
 <div class='btAutoForm'>
         <div class="d-grid gap-2 d-md-block">
-        <button class="btn btn-danger" type="button"><a href="AutoInsurance.html">Back</a></button>
-        <button class="btn btn-info" type="button">Submit</button>
+        <button class="btn btn-info" type="button"><a href="AutoInsurance.html">Back</a></button>
+        <button class="btn btn-info" type="submit">Submit</button>
     </div>
 </div>
                     <br>
